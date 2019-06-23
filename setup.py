@@ -8,33 +8,31 @@ cur = conexion.cursor()
 sql = """select 'drop table"' || tablename || '" cascade;' from pg_tables;"""
 
 cur.execute(sql)
-#AÑADIR A CHOFER EL ATRIBUTO ESTADO (BOOLEANO) QUE INDICA SI ESTA DESPEDIDO O NO
-#CREAR TABLA CON DESPEDIDOS, CON EL RUT DE LOS CHOFERES DESPEDIDOS
-#ENTIDADES
+
 sql = """
 
 CREATE TABLE despedidos
-        (rut VARCHAR(15), id_despido INT, PRIMARY KEY(rut, id_despido), fecha_despido DATE);      
+        (id_despido INT, rut VARCHAR(15) , PRIMARY KEY(id_despido, rut), fecha_despido DATE);      
 
-/*TABLA RELACIONAL DE DESPEDIDOS CON CHOFER*/
+/*TABLA RELACIONAL DE DESPEDIDOS CON CHOFER #1:1*/
 CREATE TABLE chofer_despidos
-        (rut VARCHAR(15));
+        (rut VARCHAR(10));
 
 CREATE TABLE chofer
-        (rut VARCHAR(15) PRIMARY KEY NOT NULL, nombre VARCHAR(15), apellidoP VARCHAR(15), apellidoM VARCHAR(15), despedido BOOLEAN);
+        (rut VARCHAR(10) PRIMARY KEY NOT NULL, nombre VARCHAR(15), apellidoP VARCHAR(15), apellidoM VARCHAR(15), despedido BOOLEAN);
 
-/*TABLA RELACIONAL DE CHOFER CON CAMION */        
+/*TABLA RELACIONAL DE CHOFER CON CAMION #n:m*/        
 CREATE TABLE chofer_camion
-        (rut VARCHAR (15), patente VARCHAR(10));
+        (rut VARCHAR (10), patente VARCHAR(6));
         
 CREATE TABLE camion
-        (patente VARCHAR(10) PRIMARY KEY NOT NULL, capacidad INTEGER, fecha_ult_mantencion DATE, empresa VARCHAR (20));
+        (patente VARCHAR(6) PRIMARY KEY NOT NULL, capacidad INTEGER, fecha_ult_mantencion DATE, empresa VARCHAR (20));
 
 
 CREATE TABLE destino
         (cod_destino INT PRIMARY KEY NOT NULL, ciudad VARCHAR(25), num_bodegas INT);
 
-/*TABLA RELACIONAL DE DESTINO CON BODEGAS*/
+/*TABLA RELACIONAL DE DESTINO CON BODEGAS #1:m  */
 CREATE TABLE destino_ciudad
         (cod_destino INT, cod_bodega INT):
         
@@ -44,7 +42,7 @@ CREATE TABLE bodegas
 CREATE TABLE productos
         (cod_producto INT PRIMARY KEY NOT NULL, marca VARCHAR(15), tipo VARCHAR(15));
 
-/*TABLA RELACIONAL DE PRODUCTOS CON DETALLE ENVIOS*/        
+/*TABLA RELACIONAL DE PRODUCTOS CON DETALLE ENVIOS  #n:m */        
 CREATE TABLE producto_detalle
         (cod_producto INT);
 
@@ -54,19 +52,19 @@ CREATE TABLE detalle_envios
 CREATE TABLE envios
         (cod_envio INT PRIMARY KEY NOT NULL, fecha_pedido DATE, fecha_limite DATE);
         
-/*TABLA RELACIONAL DE ENVIOS CON CAMION*/
+/*TABLA RELACIONAL DE ENVIOS CON CAMION  #n:m */
 CREATE TABLE envio_camion
-        (cod_envio INT, patente VARCHAR(10));
+        (cod_envio INT, patente VARCHAR(6));
 
-/*TABLA RELACIONAL DE ENVIOS CON DETALLE ENVIOS*/
+/*TABLA RELACIONAL DE ENVIOS CON DETALLE ENVIOS  #n:m*/
 CREATE TABLE envio_detalle
         (cod_envio INT);        
         
-/*TABLA RELACIONAL DE ENVIOS CON CHOFER*/
+/*TABLA RELACIONAL DE ENVIOS CON CHOFER #n:m */
 CREATE TABLE envio_chofer
-        (cod_envio INT, rut VARCHAR(15));
+        (cod_envio INT, rut VARCHAR(10));
 
-/*TABLA RELACIONAL DE ENVIOS CON DESTINO*/
+/*TABLA RELACIONAL DE ENVIOS CON DESTINO #n:1 */
 CREATE TABLE envio_destino
         (cod_envio INT, cod_destino INT);        
 
