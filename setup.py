@@ -21,7 +21,7 @@ CREATE TABLE chofer_despidos
         (rut VARCHAR(15));
 
 CREATE TABLE chofer
-        (rut VARCHAR(15) PRIMARY KEY NOT NULL, nombre VARCHAR(15), apellidoP VARCHAR(15), apellidoM VARCHAR(15), estado BOOLEAN);
+        (rut VARCHAR(15) PRIMARY KEY NOT NULL, nombre VARCHAR(15), apellidoP VARCHAR(15), apellidoM VARCHAR(15), despedido BOOLEAN);
 
 /*TABLA RELACIONAL DE CHOFER CON CAMION */        
 CREATE TABLE chofer_camion
