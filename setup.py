@@ -1,9 +1,9 @@
 import psycopg2 as psq
 from datosMaster import *
 
-conexion = psq.connect("dbname=%s user=%s host=%s password=%s"%(database,user,host,password))
+conn = psq.connect("dbname=%s user=%s host=%s password=%s"%(database,user,host,password))
 
-cur = conexion.cursor()
+cur = conn.cursor()
 
 sql = """select 'drop table"' || tablename || '" cascade;' from pg_tables;"""
 
@@ -72,9 +72,9 @@ CREATE TABLE envio_destino
 
 cur.execute(sql)
 
-conexion.commit()
+conn.commit()
 
 cur.close()
 
-conexion.close()
+conn.close()
 
