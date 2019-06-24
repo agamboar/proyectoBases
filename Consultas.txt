@@ -31,9 +31,21 @@ where envios.cod_envio=detalle_envios.cod_envio
 and detalle_envios.cod_producto=productos.cod_producto
 and productos.marca='Nike';
 
-6.- Agrupar los camiones por Empresa
+6.- Ordenar los camiones por fecha de ultima mantencion
 
-select count(camion.patente), camion.empresa
+select camion.patente, camion.fecha_ult_mantencion
+from camion
+order by camion.fecha_ult_mantencion;
+
+7.-Sumar la cantidad de carga que poseen todos los camiones y agruparlos por empresa.
+
+select camion.empresa, SUM(camion.capacidad) as CapacidadTotal
 from camion
 group by camion.empresa;
+
+8.- Ordenar y agrupar por cantidad de productos pedidos en un envio
+
+select detalle_envios.cod_envio, SUM(detalle_envios.cantidad) as TotalCantidad
+from detalle_envios
+group by detalle_envios.cod_envio;
 
