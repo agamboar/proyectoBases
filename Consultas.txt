@@ -1,0 +1,39 @@
+1.- Rut, sueldo y estado de despido de los choferes que tengan un sueldo mayor a 700.000
+
+select chofer.rut, chofer.sueldo, chofer.despedido
+from chofer
+where chofer.sueldo>700000;
+
+2.-Nombre, apellido paterno y rut de los camioneros que manejan el camion de patente DFPK12
+
+select chofer.nombre, chofer.apellidoP, chofer.rut
+from chofer, chofer_camion
+where chofer.rut = chofer_camion.rut
+and chofer_camion.patente='DFPK12';
+
+3.-Patente y empresa del Camion con mas capacidad de carga
+
+select camion.capacidad, camion.patente, camion.empresa
+from camion
+where camion.capacidad = (select max(camion.capacidad) from camion);
+
+4.- Ordenar por fecha limite los pedidos
+
+select *
+from envios
+order by envios.limite;
+
+5.- Envios que deben transportar productos NIKE
+
+select envios.cod_envio, envios.fecha_pedido
+from envios, detalle_envios, productos
+where envios.cod_envio=detalle_envios.cod_envio
+and detalle_envios.cod_producto=productos.cod_producto
+and productos.marca='Nike';
+
+6.- Agrupar los camiones por Empresa
+
+select count(camion.patente), camion.empresa
+from camion
+group by camion.empresa;
+

@@ -14,10 +14,10 @@ sql = """
 CREATE TABLE despedidos
         (id_despido INT, rut VARCHAR(15) , PRIMARY KEY(id_despido, rut), fecha_despido DATE);      
 
-/*TABLA RELACIONAL DE DESPEDIDOS CON CHOFER #1:1*/
+/*TABLA RELACIONAL DE DESPEDIDOS CON CHOFER #1:1
 CREATE TABLE chofer_despidos
         (rut VARCHAR(10));
-
+*/
 CREATE TABLE chofer
         (rut VARCHAR(10) PRIMARY KEY NOT NULL, nombre VARCHAR(15), apellidoP VARCHAR(15), apellidoM VARCHAR(15), sueldo INT, despedido BOOLEAN);
 
@@ -33,7 +33,7 @@ CREATE TABLE destino
         (cod_destino INT PRIMARY KEY NOT NULL, ciudad VARCHAR(25), num_bodegas INT);
 
 /*TABLA RELACIONAL DE DESTINO CON BODEGAS #1:m  */
-CREATE TABLE destino_ciudad
+CREATE TABLE destino_bodega
         (cod_destino INT, cod_bodega INT);
         
 CREATE TABLE bodegas
@@ -42,10 +42,10 @@ CREATE TABLE bodegas
 CREATE TABLE productos
         (cod_producto INT PRIMARY KEY NOT NULL, marca VARCHAR(15), tipo VARCHAR(15));
 
-/*TABLA RELACIONAL DE PRODUCTOS CON DETALLE ENVIOS  #n:m */        
+/*TABLA RELACIONAL DE PRODUCTOS CON DETALLE ENVIOS  #n:m        
 CREATE TABLE producto_detalle
         (cod_producto INT);
-
+*/
 CREATE TABLE detalle_envios
         (cod_envio INT, cod_producto INT, PRIMARY KEY(cod_envio, cod_producto), cantidad INT);
         
@@ -56,10 +56,10 @@ CREATE TABLE envios
 CREATE TABLE envio_camion
         (cod_envio INT, patente VARCHAR(6));
 
-/*TABLA RELACIONAL DE ENVIOS CON DETALLE ENVIOS  #n:m*/
+/*TABLA RELACIONAL DE ENVIOS CON DETALLE ENVIOS  #n:m
 CREATE TABLE envio_detalle
         (cod_envio INT);        
-        
+*/        
 /*TABLA RELACIONAL DE ENVIOS CON CHOFER #n:m */
 CREATE TABLE envio_chofer
         (cod_envio INT, rut VARCHAR(10));

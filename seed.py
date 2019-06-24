@@ -30,10 +30,10 @@ sql = '''
     /*---------------------------------------------------------------*/          
     INSERT INTO despedidos( id_despido, rut, fecha_despido)
               VALUES(01 ,'6879123-4', '2019-01-30');
-    /*---------------------------------------------------------------*/
+    /*---------------------------------------------------------------
     INSERT INTO chofer_despidos(rut)
               VALUES('6879123-4');
-    /*---------------------------------------------------------------*/
+    ---------------------------------------------------------------*/
     INSERT INTO chofer_camion(rut, patente)
               VALUES('12025231-8', 'TR1012');   
     INSERT INTO chofer_camion(rut, patente)
@@ -73,17 +73,17 @@ sql = '''
     INSERT INTO bodegas(cod_bodega, direccion, capacidad)
               VALUES(00033, 'Manuel Rodriguez', 15000);
     /*-----------------------------------------------------*/
-    INSERT INTO destino_ciudad(cod_destino, cod_bodega)
+    INSERT INTO destino_bodega(cod_destino, cod_bodega)
               VALUES(001, 00031);
-    INSERT INTO destino_ciudad(cod_destino, cod_bodega)
+    INSERT INTO destino_bodega(cod_destino, cod_bodega)
               VALUES(001, 00032);          
-    INSERT INTO destino_ciudad(cod_destino, cod_bodega)
+    INSERT INTO destino_bodega(cod_destino, cod_bodega)
               VALUES(001, 00033);
-    INSERT INTO destino_ciudad(cod_destino, cod_bodega)
+    INSERT INTO destino_bodega(cod_destino, cod_bodega)
               VALUES(011, 00021);
-    INSERT INTO destino_ciudad(cod_destino, cod_bodega)
+    INSERT INTO destino_bodega(cod_destino, cod_bodega)
               VALUES(011, 00022);
-    INSERT INTO destino_ciudad(cod_destino, cod_bodega)
+    INSERT INTO destino_bodega(cod_destino, cod_bodega)
               VALUES(041, 00011);                              
 '''
 
@@ -119,7 +119,7 @@ sql = '''
               VALUES(125, 977, 700);
     INSERT INTO detalle_envios(cod_envio, cod_producto, cantidad)
               VALUES(126, 980, 1000);
-    /*-----------------------------------------------------------*/
+    /*-----------------------------------------------------------
     
     INSERT INTO envio_detalle(cod_envio)
               VALUES(123);
@@ -127,7 +127,7 @@ sql = '''
               VALUES(125);          
     INSERT INTO envio_detalle(cod_envio)
               VALUES(126);
-    /*----------------------------------------------------------*/
+    ----------------------------------------------------------
     
     INSERT INTO producto_detalle(cod_producto)
               VALUES(980);          
@@ -135,7 +135,7 @@ sql = '''
               VALUES(977);          
     INSERT INTO producto_detalle(cod_producto)
               VALUES(1010);          
-    /*------------------------------------------------------------*/
+    ------------------------------------------------------------*/
     
     INSERT INTO envio_camion(cod_envio, patente)
               VALUES(123, 'TR1012');          
