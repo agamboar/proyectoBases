@@ -6,18 +6,18 @@ conexion = psq.connect("dbname=%s user=%s host=%s password=%s"%(database,user,ho
 cur = conexion.cursor()
 
 sql = '''
-    INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, despedido)
-              VALUES('12025231-8', 'Esteban', 'Gomez', 'Torres', FALSE);
-    INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, despedido)
-              VALUES('9784124-K', 'Raul', 'Flores', 'Martinez', FALSE);
-    INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, despedido)
-              VALUES('10111222-4', 'Mario', 'Lopez', 'Torres', FALSE);
-    INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, despedido)
-              VALUES('7845111-4', 'Manuel', 'Lara', 'Donoso', FALSE);
-    INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, despedido)
-              VALUES('11324587-0', 'Mario', 'Castro', 'Urzua', FALSE);  
-    INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, despedido)
-              VALUES('6879123-4', 'Hernan', 'Florez', 'Donoso', TRUE);
+    INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, sueldo, despedido)
+              VALUES('12025231-8', 'Esteban', 'Gomez', 'Torres', 620000, FALSE);
+    INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, sueldo, despedido)
+              VALUES('9784124-K', 'Raul', 'Flores', 'Martinez', 710000, FALSE);
+    INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, sueldo, despedido)
+              VALUES('10111222-4', 'Mario', 'Lopez', 'Torres', 650000, FALSE);
+    INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, sueldo, despedido)
+              VALUES('7845111-4', 'Manuel', 'Lara', 'Donoso', 750000, FALSE);
+    INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, sueldo, despedido)
+              VALUES('11324587-0', 'Mario', 'Castro', 'Urzua', 630000, FALSE);  
+    INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, sueldo, despedido)
+              VALUES('6879123-4', 'Hernan', 'Florez', 'Donoso', 850000, TRUE);
     /*-----------------------------------------------------------------*/          
     INSERT INTO camion(patente, capacidad, fecha_ult_mantencion, empresa)
               VALUES('TR1012', 2000, '2019-03-03', 'APL');
