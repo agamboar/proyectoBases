@@ -34,7 +34,7 @@ CREATE TABLE destino
 
 /*TABLA RELACIONAL DE DESTINO CON BODEGAS #1:m  */
 CREATE TABLE destino_ciudad
-        (cod_destino INT, cod_bodega INT):
+        (cod_destino INT, cod_bodega INT);
         
 CREATE TABLE bodegas
         (cod_bodega INT PRIMARY KEY NOT NULL, direccion VARCHAR(30), capacidad INT);

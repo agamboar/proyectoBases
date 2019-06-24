@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="936de7b5-fdba-4651-888d-f9b38e4ab092" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/borrarTablas.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/borrarTablas.py" afterPath="$PROJECT_DIR$/borrarTablas.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seed.py" afterPath="$PROJECT_DIR$/seed.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +15,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/proyecto_bases$setup.coverage" NAME="setup Coverage Results" MODIFIED="1561333206002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyecto_bases$setup.coverage" NAME="setup Coverage Results" MODIFIED="1561337398662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyecto_bases$borrarTablas.coverage" NAME="borrarTablas Coverage Results" MODIFIED="1561337363325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyecto_bases$seed.coverage" NAME="seed Coverage Results" MODIFIED="1561335600082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -29,38 +32,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="89" lean-forward="true" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
+            <state relative-caret-position="238">
+              <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <marker date="1561333221189" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
-                <marker date="1561333221189" expanded="true" signature="270:386" ph="CREATE TABLE... despedidos" />
-                <marker date="1561333221189" expanded="true" signature="395:445" ph="/*TABLA RELA... " />
-                <marker date="1561333221189" expanded="true" signature="446:500" ph="CREATE TABLE... chofer_despidos" />
-                <marker date="1561333221189" expanded="true" signature="503:654" ph="CREATE TABLE... chofer" />
-                <marker date="1561333221189" expanded="true" signature="657:703" ph="/*TABLA RELA... " />
-                <marker date="1561333221189" expanded="true" signature="712:785" ph="CREATE TABLE... chofer_camion" />
-                <marker date="1561333221189" expanded="true" signature="796:933" ph="CREATE TABLE... camion" />
-                <marker date="1561333221189" expanded="true" signature="937:1041" ph="CREATE TABLE... DESTINO" />
-                <marker date="1561333221189" expanded="true" signature="1044:1094" ph="/*TABLA RELA... " />
-                <marker date="1561333221189" expanded="true" signature="1095:1165" ph="CREATE TABLE... destino_ciudad" />
-                <marker date="1561333221189" expanded="true" signature="1175:1279" ph="CREATE TABLE... bodegas" />
-                <marker date="1561333221189" expanded="true" signature="1282:1389" ph="CREATE TABLE... productos" />
-                <marker date="1561333221189" expanded="true" signature="1392:1451" ph="/*TABLA RELA... " />
-                <marker date="1561333221189" expanded="true" signature="1460:1516" ph="CREATE TABLE... producto_detalle" />
-                <marker date="1561333221189" expanded="true" signature="1519:1640" ph="CREATE TABLE... detalle_envios" />
-                <marker date="1561333221189" expanded="true" signature="1651:1753" ph="CREATE TABLE... envios" />
-                <marker date="1561333221189" expanded="true" signature="1764:1812" ph="/*TABLA RELA... " />
-                <marker date="1561333221189" expanded="true" signature="1813:1882" ph="CREATE TABLE... envio_camion" />
-                <marker date="1561333221189" expanded="true" signature="1885:1940" ph="/*TABLA RELA... " />
-                <marker date="1561333221189" expanded="true" signature="1941:1991" ph="CREATE TABLE... envio_detalle" />
-                <marker date="1561333221189" expanded="true" signature="2010:2057" ph="/*TABLA RELA... " />
-                <marker date="1561333221189" expanded="true" signature="2058:2124" ph="CREATE TABLE... envio_chofer" />
-                <marker date="1561333221189" expanded="true" signature="2127:2175" ph="/*TABLA RELA... " />
-                <marker date="1561333221189" expanded="true" signature="2176:2243" ph="CREATE TABLE... envio_destino" />
+                <marker date="1561337347654" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
+                <marker date="1561337347654" expanded="true" signature="270:386" ph="CREATE TABLE... despedidos" />
+                <marker date="1561337347654" expanded="true" signature="395:445" ph="/*TABLA RELA... " />
+                <marker date="1561337347654" expanded="true" signature="446:500" ph="CREATE TABLE... chofer_despidos" />
+                <marker date="1561337347654" expanded="true" signature="503:654" ph="CREATE TABLE... chofer" />
+                <marker date="1561337347654" expanded="true" signature="657:703" ph="/*TABLA RELA... " />
+                <marker date="1561337347654" expanded="true" signature="712:785" ph="CREATE TABLE... chofer_camion" />
+                <marker date="1561337347654" expanded="true" signature="796:933" ph="CREATE TABLE... camion" />
+                <marker date="1561337347654" expanded="true" signature="937:1041" ph="CREATE TABLE... DESTINO" />
+                <marker date="1561337347654" expanded="true" signature="1044:1094" ph="/*TABLA RELA... " />
+                <marker date="1561337347654" expanded="true" signature="1095:1164" ph="CREATE TABLE... destino_ciudad" />
+                <marker date="1561337347654" expanded="true" signature="1175:1279" ph="CREATE TABLE... bodegas" />
+                <marker date="1561337347654" expanded="true" signature="1282:1389" ph="CREATE TABLE... productos" />
+                <marker date="1561337347654" expanded="true" signature="1392:1451" ph="/*TABLA RELA... " />
+                <marker date="1561337347654" expanded="true" signature="1460:1516" ph="CREATE TABLE... producto_detalle" />
+                <marker date="1561337347654" expanded="true" signature="1519:1640" ph="CREATE TABLE... detalle_envios" />
+                <marker date="1561337347654" expanded="true" signature="1651:1753" ph="CREATE TABLE... envios" />
+                <marker date="1561337347654" expanded="true" signature="1764:1812" ph="/*TABLA RELA... " />
+                <marker date="1561337347654" expanded="true" signature="1813:1882" ph="CREATE TABLE... envio_camion" />
+                <marker date="1561337347654" expanded="true" signature="1885:1940" ph="/*TABLA RELA... " />
+                <marker date="1561337347654" expanded="true" signature="1941:1991" ph="CREATE TABLE... envio_detalle" />
+                <marker date="1561337347654" expanded="true" signature="2010:2057" ph="/*TABLA RELA... " />
+                <marker date="1561337347654" expanded="true" signature="2058:2124" ph="CREATE TABLE... envio_chofer" />
+                <marker date="1561337347654" expanded="true" signature="2127:2175" ph="/*TABLA RELA... " />
+                <marker date="1561337347654" expanded="true" signature="2176:2243" ph="CREATE TABLE... envio_destino" />
               </folding>
             </state>
           </provider>
@@ -69,114 +72,114 @@
       <file leaf-file-name="borrarTablas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/borrarTablas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state relative-caret-position="51">
+              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="93" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <marker date="1561331762000" expanded="true" signature="179:243" ph="select 'drop... pg_tables" />
-                <marker date="1561331762000" expanded="true" signature="278:299" ph="DROP TABLE d... " />
-                <marker date="1561331762000" expanded="true" signature="301:329" ph="DROP TABLE c... " />
-                <marker date="1561331762000" expanded="true" signature="331:348" ph="DROP TABLE c... " />
-                <marker date="1561331762000" expanded="true" signature="350:374" ph="DROP TABLE c... " />
-                <marker date="1561331762000" expanded="true" signature="376:393" ph="DROP TABLE c... " />
-                <marker date="1561331762000" expanded="true" signature="395:413" ph="DROP TABLE d... " />
-                <marker date="1561331762000" expanded="true" signature="415:440" ph="DROP TABLE d... " />
-                <marker date="1561331762000" expanded="true" signature="442:460" ph="DROP TABLE b... " />
-                <marker date="1561331762000" expanded="true" signature="462:482" ph="DROP TABLE p... " />
-                <marker date="1561331762000" expanded="true" signature="484:511" ph="DROP TABLE p... " />
-                <marker date="1561331762000" expanded="true" signature="513:537" ph="DROP TABLE d... " />
-                <marker date="1561331762000" expanded="true" signature="539:556" ph="DROP TABLE e... " />
-                <marker date="1561331762000" expanded="true" signature="558:581" ph="DROP TABLE e... " />
-                <marker date="1561331762000" expanded="true" signature="583:607" ph="DROP TABLE e... " />
-                <marker date="1561331762000" expanded="true" signature="609:632" ph="DROP TABLE e... " />
-                <marker date="1561331762000" expanded="true" signature="634:658" ph="DROP TABLE e... " />
+                <marker date="1561335438386" expanded="true" signature="179:243" ph="select 'drop... pg_tables" />
+                <marker date="1561335438386" expanded="true" signature="278:299" ph="DROP TABLE d... " />
+                <marker date="1561335438386" expanded="true" signature="301:327" ph="DROP TABLE c... " />
+                <marker date="1561335438386" expanded="true" signature="329:346" ph="DROP TABLE c... " />
+                <marker date="1561335438386" expanded="true" signature="348:372" ph="DROP TABLE c... " />
+                <marker date="1561335438386" expanded="true" signature="374:391" ph="DROP TABLE c... " />
+                <marker date="1561335438386" expanded="true" signature="393:411" ph="DROP TABLE d... " />
+                <marker date="1561335438386" expanded="true" signature="413:438" ph="DROP TABLE d... " />
+                <marker date="1561335438386" expanded="true" signature="440:458" ph="DROP TABLE b... " />
+                <marker date="1561335438386" expanded="true" signature="460:480" ph="DROP TABLE p... " />
+                <marker date="1561335438386" expanded="true" signature="482:509" ph="DROP TABLE p... " />
+                <marker date="1561335438386" expanded="true" signature="511:536" ph="DROP TABLE d... " />
+                <marker date="1561335438386" expanded="true" signature="538:555" ph="DROP TABLE e... " />
+                <marker date="1561335438386" expanded="true" signature="557:580" ph="DROP TABLE e... " />
+                <marker date="1561335438386" expanded="true" signature="582:606" ph="DROP TABLE e... " />
+                <marker date="1561335438386" expanded="true" signature="608:631" ph="DROP TABLE e... " />
+                <marker date="1561335438386" expanded="true" signature="633:657" ph="DROP TABLE e... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seed.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="seed.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <marker date="1561278029918" expanded="true" signature="187:323" ph="INSERT INTO chofer... " />
-                <marker date="1561278029918" expanded="true" signature="329:464" ph="INSERT INTO chofer... " />
-                <marker date="1561278029918" expanded="true" signature="470:604" ph="INSERT INTO chofer... " />
-                <marker date="1561278029918" expanded="true" signature="610:743" ph="INSERT INTO chofer... " />
-                <marker date="1561278029918" expanded="true" signature="749:883" ph="INSERT INTO chofer... " />
-                <marker date="1561278029918" expanded="true" signature="891:1025" ph="INSERT INTO chofer... " />
-                <marker date="1561278029918" expanded="true" signature="1031:1100" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="1115:1242" ph="INSERT INTO camion... " />
-                <marker date="1561278029918" expanded="true" signature="1248:1375" ph="INSERT INTO camion... " />
-                <marker date="1561278029918" expanded="true" signature="1381:1508" ph="INSERT INTO camion... " />
-                <marker date="1561278029918" expanded="true" signature="1534:1661" ph="INSERT INTO camion... " />
-                <marker date="1561278029918" expanded="true" signature="1677:1744" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="1759:1866" ph="INSERT INTO despedidos... " />
-                <marker date="1561278029918" expanded="true" signature="1872:1939" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="1944:2010" ph="INSERT INTO chofer_despidos... " />
-                <marker date="1561278029918" expanded="true" signature="2016:2083" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="2088:2172" ph="INSERT INTO chofer_camion... " />
-                <marker date="1561278029918" expanded="true" signature="2181:2265" ph="INSERT INTO chofer_camion... " />
-                <marker date="1561278029918" expanded="true" signature="2273:2356" ph="INSERT INTO chofer_camion... " />
-                <marker date="1561278029918" expanded="true" signature="2366:2450" ph="INSERT INTO chofer_camion... " />
-                <marker date="1561278029918" expanded="true" signature="2456:2539" ph="INSERT INTO chofer_camion... " />
-                <marker date="1561278029918" expanded="true" signature="2613:2708" ph="INSERT INTO destino... " />
-                <marker date="1561278029918" expanded="true" signature="2714:2805" ph="INSERT INTO destino... " />
-                <marker date="1561278029918" expanded="true" signature="2811:2909" ph="INSERT INTO destino... " />
-                <marker date="1561278029918" expanded="true" signature="2915:3010" ph="INSERT INTO destino... " />
-                <marker date="1561278029918" expanded="true" signature="3016:3107" ph="INSERT INTO destino... " />
-                <marker date="1561278029918" expanded="true" signature="3113:3167" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="3182:3285" ph="INSERT INTO bodegas... " />
-                <marker date="1561278029918" expanded="true" signature="3301:3408" ph="INSERT INTO bodegas... " />
-                <marker date="1561278029918" expanded="true" signature="3414:3515" ph="INSERT INTO bodegas... " />
-                <marker date="1561278029918" expanded="true" signature="3521:3622" ph="INSERT INTO bodegas... " />
-                <marker date="1561278029918" expanded="true" signature="3628:3734" ph="INSERT INTO bodegas... " />
-                <marker date="1561278029918" expanded="true" signature="3740:3848" ph="INSERT INTO bodegas... " />
-                <marker date="1561278029918" expanded="true" signature="3854:3911" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="3916:4000" ph="INSERT INTO destino_ciudad... " />
-                <marker date="1561278029918" expanded="true" signature="4006:4090" ph="INSERT INTO destino_ciudad... " />
-                <marker date="1561278029918" expanded="true" signature="4106:4190" ph="INSERT INTO destino_ciudad... " />
-                <marker date="1561278029918" expanded="true" signature="4196:4280" ph="INSERT INTO destino_ciudad... " />
-                <marker date="1561278029918" expanded="true" signature="4286:4370" ph="INSERT INTO destino_ciudad... " />
-                <marker date="1561278029918" expanded="true" signature="4376:4460" ph="INSERT INTO destino_ciudad... " />
-                <marker date="1561278029918" expanded="true" signature="4530:4587" ph="INSERT INTO envios... " />
-                <marker date="1561278029918" expanded="true" signature="4530:4641" ph="INSERT INTO envios... " />
-                <marker date="1561278029918" expanded="true" signature="4647:4758" ph="INSERT INTO envios... " />
-                <marker date="1561278029918" expanded="true" signature="4774:4885" ph="INSERT INTO envios... " />
-                <marker date="1561278029918" expanded="true" signature="4891:5002" ph="INSERT INTO envios... " />
-                <marker date="1561278029918" expanded="true" signature="5008:5067" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="5077:5172" ph="INSERT INTO productos... " />
-                <marker date="1561278029918" expanded="true" signature="5178:5274" ph="INSERT INTO productos... " />
-                <marker date="1561278029918" expanded="true" signature="5290:5386" ph="INSERT INTO productos... " />
-                <marker date="1561278029918" expanded="true" signature="5402:5505" ph="INSERT INTO productos... " />
-                <marker date="1561278029918" expanded="true" signature="5511:5570" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="5580:5676" ph="INSERT INTO detalle_envio... " />
-                <marker date="1561278029918" expanded="true" signature="5682:5779" ph="INSERT INTO detalle_envio... " />
-                <marker date="1561278029918" expanded="true" signature="5805:5901" ph="INSERT INTO detalle_envio... " />
-                <marker date="1561278029918" expanded="true" signature="5907:6004" ph="INSERT INTO detalle_envio... " />
-                <marker date="1561278029918" expanded="true" signature="6010:6073" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="6083:6145" ph="INSERT INTO envio_detalle... " />
-                <marker date="1561278029918" expanded="true" signature="6151:6213" ph="INSERT INTO envio_detalle... " />
-                <marker date="1561278029918" expanded="true" signature="6229:6291" ph="INSERT INTO envio_detalle... " />
-                <marker date="1561278029918" expanded="true" signature="6297:6359" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="6369:6437" ph="INSERT INTO producto_detalle... " />
-                <marker date="1561278029918" expanded="true" signature="6453:6521" ph="INSERT INTO producto_detalle... " />
-                <marker date="1561278029918" expanded="true" signature="6537:6606" ph="INSERT INTO producto_detalle... " />
-                <marker date="1561278029918" expanded="true" signature="6622:6686" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="6696:6776" ph="INSERT INTO envio_camion... " />
-                <marker date="1561278029918" expanded="true" signature="6792:6872" ph="INSERT INTO envio_camion... " />
-                <marker date="1561278029918" expanded="true" signature="6879:6959" ph="INSERT INTO envio_camion... " />
-                <marker date="1561278029918" expanded="true" signature="6966:7030" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="7040:7120" ph="INSERT INTO envio_chofer... " />
-                <marker date="1561278029918" expanded="true" signature="7135:7214" ph="INSERT INTO envio_chofer... " />
-                <marker date="1561278029918" expanded="true" signature="7230:7310" ph="INSERT INTO envio_chofer... " />
-                <marker date="1561278029918" expanded="true" signature="7317:7381" ph="/*----------... " />
-                <marker date="1561278029918" expanded="true" signature="7391:7471" ph="INSERT INTO envio_destino... " />
-                <marker date="1561278029918" expanded="true" signature="7477:7557" ph="INSERT INTO envio_destino... " />
-                <marker date="1561278029918" expanded="true" signature="7583:7663" ph="INSERT INTO envio_destino... " />
+                <marker date="1561337347694" expanded="true" signature="184:320" ph="INSERT INTO chofer... " />
+                <marker date="1561337347694" expanded="true" signature="326:461" ph="INSERT INTO chofer... " />
+                <marker date="1561337347694" expanded="true" signature="467:601" ph="INSERT INTO chofer... " />
+                <marker date="1561337347694" expanded="true" signature="607:740" ph="INSERT INTO chofer... " />
+                <marker date="1561337347694" expanded="true" signature="746:880" ph="INSERT INTO chofer... " />
+                <marker date="1561337347694" expanded="true" signature="888:1022" ph="INSERT INTO chofer... " />
+                <marker date="1561337347694" expanded="true" signature="1028:1097" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="1112:1239" ph="INSERT INTO camion... " />
+                <marker date="1561337347694" expanded="true" signature="1245:1372" ph="INSERT INTO camion... " />
+                <marker date="1561337347694" expanded="true" signature="1378:1505" ph="INSERT INTO camion... " />
+                <marker date="1561337347694" expanded="true" signature="1531:1658" ph="INSERT INTO camion... " />
+                <marker date="1561337347694" expanded="true" signature="1674:1741" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="1756:1863" ph="INSERT INTO despedidos... " />
+                <marker date="1561337347694" expanded="true" signature="1869:1936" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="1941:2007" ph="INSERT INTO chofer_despidos... " />
+                <marker date="1561337347694" expanded="true" signature="2013:2080" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="2085:2169" ph="INSERT INTO chofer_camion... " />
+                <marker date="1561337347694" expanded="true" signature="2178:2262" ph="INSERT INTO chofer_camion... " />
+                <marker date="1561337347694" expanded="true" signature="2270:2353" ph="INSERT INTO chofer_camion... " />
+                <marker date="1561337347694" expanded="true" signature="2363:2447" ph="INSERT INTO chofer_camion... " />
+                <marker date="1561337347694" expanded="true" signature="2453:2536" ph="INSERT INTO chofer_camion... " />
+                <marker date="1561337347694" expanded="true" signature="2610:2705" ph="INSERT INTO destino... " />
+                <marker date="1561337347694" expanded="true" signature="2711:2802" ph="INSERT INTO destino... " />
+                <marker date="1561337347694" expanded="true" signature="2808:2906" ph="INSERT INTO destino... " />
+                <marker date="1561337347694" expanded="true" signature="2912:3007" ph="INSERT INTO destino... " />
+                <marker date="1561337347694" expanded="true" signature="3013:3104" ph="INSERT INTO destino... " />
+                <marker date="1561337347694" expanded="true" signature="3110:3164" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="3179:3282" ph="INSERT INTO bodegas... " />
+                <marker date="1561337347694" expanded="true" signature="3298:3405" ph="INSERT INTO bodegas... " />
+                <marker date="1561337347694" expanded="true" signature="3411:3512" ph="INSERT INTO bodegas... " />
+                <marker date="1561337347694" expanded="true" signature="3518:3619" ph="INSERT INTO bodegas... " />
+                <marker date="1561337347694" expanded="true" signature="3625:3731" ph="INSERT INTO bodegas... " />
+                <marker date="1561337347694" expanded="true" signature="3737:3845" ph="INSERT INTO bodegas... " />
+                <marker date="1561337347694" expanded="true" signature="3851:3908" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="3913:3997" ph="INSERT INTO destino_ciudad... " />
+                <marker date="1561337347694" expanded="true" signature="4003:4087" ph="INSERT INTO destino_ciudad... " />
+                <marker date="1561337347694" expanded="true" signature="4103:4187" ph="INSERT INTO destino_ciudad... " />
+                <marker date="1561337347694" expanded="true" signature="4193:4277" ph="INSERT INTO destino_ciudad... " />
+                <marker date="1561337347694" expanded="true" signature="4283:4367" ph="INSERT INTO destino_ciudad... " />
+                <marker date="1561337347694" expanded="true" signature="4373:4457" ph="INSERT INTO destino_ciudad... " />
+                <marker date="1561337347694" expanded="true" signature="4527:4584" ph="INSERT INTO envios... " />
+                <marker date="1561337347694" expanded="true" signature="4527:4638" ph="INSERT INTO envios... " />
+                <marker date="1561337347694" expanded="true" signature="4644:4755" ph="INSERT INTO envios... " />
+                <marker date="1561337347694" expanded="true" signature="4771:4882" ph="INSERT INTO envios... " />
+                <marker date="1561337347694" expanded="true" signature="4888:4999" ph="INSERT INTO envios... " />
+                <marker date="1561337347694" expanded="true" signature="5005:5064" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="5074:5169" ph="INSERT INTO productos... " />
+                <marker date="1561337347694" expanded="true" signature="5175:5271" ph="INSERT INTO productos... " />
+                <marker date="1561337347694" expanded="true" signature="5287:5383" ph="INSERT INTO productos... " />
+                <marker date="1561337347694" expanded="true" signature="5399:5502" ph="INSERT INTO productos... " />
+                <marker date="1561337347694" expanded="true" signature="5508:5567" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="5577:5674" ph="INSERT INTO detalle_envios... " />
+                <marker date="1561337347694" expanded="true" signature="5680:5778" ph="INSERT INTO detalle_envios... " />
+                <marker date="1561337347694" expanded="true" signature="5804:5901" ph="INSERT INTO detalle_envios... " />
+                <marker date="1561337347694" expanded="true" signature="5907:6005" ph="INSERT INTO detalle_envios... " />
+                <marker date="1561337347694" expanded="true" signature="6011:6074" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="6084:6146" ph="INSERT INTO envio_detalle... " />
+                <marker date="1561337347694" expanded="true" signature="6152:6214" ph="INSERT INTO envio_detalle... " />
+                <marker date="1561337347694" expanded="true" signature="6230:6292" ph="INSERT INTO envio_detalle... " />
+                <marker date="1561337347694" expanded="true" signature="6298:6360" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="6370:6438" ph="INSERT INTO producto_detalle... " />
+                <marker date="1561337347694" expanded="true" signature="6454:6522" ph="INSERT INTO producto_detalle... " />
+                <marker date="1561337347694" expanded="true" signature="6538:6607" ph="INSERT INTO producto_detalle... " />
+                <marker date="1561337347694" expanded="true" signature="6623:6687" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="6697:6777" ph="INSERT INTO envio_camion... " />
+                <marker date="1561337347694" expanded="true" signature="6793:6873" ph="INSERT INTO envio_camion... " />
+                <marker date="1561337347694" expanded="true" signature="6880:6960" ph="INSERT INTO envio_camion... " />
+                <marker date="1561337347694" expanded="true" signature="6967:7031" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="7041:7121" ph="INSERT INTO envio_chofer... " />
+                <marker date="1561337347694" expanded="true" signature="7136:7215" ph="INSERT INTO envio_chofer... " />
+                <marker date="1561337347694" expanded="true" signature="7231:7311" ph="INSERT INTO envio_chofer... " />
+                <marker date="1561337347694" expanded="true" signature="7318:7382" ph="/*----------... " />
+                <marker date="1561337347694" expanded="true" signature="7392:7472" ph="INSERT INTO envio_destino... " />
+                <marker date="1561337347694" expanded="true" signature="7478:7558" ph="INSERT INTO envio_destino... " />
+                <marker date="1561337347694" expanded="true" signature="7584:7664" ph="INSERT INTO envio_destino... " />
               </folding>
             </state>
           </provider>
@@ -185,8 +188,8 @@
       <file leaf-file-name="datosMaster.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datosMaster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="18" />
+            <state relative-caret-position="68">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -207,11 +210,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/datosMaster.py" />
         <option value="$PROJECT_DIR$/hola.py" />
-        <option value="$PROJECT_DIR$/seed.py" />
+        <option value="$PROJECT_DIR$/datosMaster.py" />
         <option value="$PROJECT_DIR$/borrarTablas.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/seed.py" />
       </list>
     </option>
   </component>
@@ -276,6 +279,42 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.setup">
+    <configuration name="borrarTablas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="proyecto_bases" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/borrarTablas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="seed" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="proyecto_bases" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,9 +333,16 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.setup" />
+      <item index="1" class="java.lang.String" itemvalue="Python.borrarTablas" />
+      <item index="2" class="java.lang.String" itemvalue="Python.seed" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Python.setup" />
+        <item index="1" class="java.lang.String" itemvalue="Python.borrarTablas" />
+        <item index="2" class="java.lang.String" itemvalue="Python.seed" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +361,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25746268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -323,7 +368,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2153518" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -346,7 +391,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -357,31 +402,31 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1561333221189" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
-            <marker date="1561333221189" expanded="true" signature="270:386" ph="CREATE TABLE... despedidos" />
-            <marker date="1561333221189" expanded="true" signature="395:445" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="446:500" ph="CREATE TABLE... chofer_despidos" />
-            <marker date="1561333221189" expanded="true" signature="503:654" ph="CREATE TABLE... chofer" />
-            <marker date="1561333221189" expanded="true" signature="657:703" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="712:785" ph="CREATE TABLE... chofer_camion" />
-            <marker date="1561333221189" expanded="true" signature="796:933" ph="CREATE TABLE... camion" />
-            <marker date="1561333221189" expanded="true" signature="937:1041" ph="CREATE TABLE... DESTINO" />
-            <marker date="1561333221189" expanded="true" signature="1044:1094" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1095:1165" ph="CREATE TABLE... destino_ciudad" />
-            <marker date="1561333221189" expanded="true" signature="1175:1279" ph="CREATE TABLE... bodegas" />
-            <marker date="1561333221189" expanded="true" signature="1282:1389" ph="CREATE TABLE... productos" />
-            <marker date="1561333221189" expanded="true" signature="1392:1451" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1460:1516" ph="CREATE TABLE... producto_detalle" />
-            <marker date="1561333221189" expanded="true" signature="1519:1640" ph="CREATE TABLE... detalle_envios" />
-            <marker date="1561333221189" expanded="true" signature="1651:1753" ph="CREATE TABLE... envios" />
-            <marker date="1561333221189" expanded="true" signature="1764:1812" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1813:1882" ph="CREATE TABLE... envio_camion" />
-            <marker date="1561333221189" expanded="true" signature="1885:1940" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1941:1991" ph="CREATE TABLE... envio_detalle" />
-            <marker date="1561333221189" expanded="true" signature="2010:2057" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="2058:2124" ph="CREATE TABLE... envio_chofer" />
-            <marker date="1561333221189" expanded="true" signature="2127:2175" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="2176:2243" ph="CREATE TABLE... envio_destino" />
+            <marker date="1561337347654" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
+            <marker date="1561337347654" expanded="true" signature="270:386" ph="CREATE TABLE... despedidos" />
+            <marker date="1561337347654" expanded="true" signature="395:445" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="446:500" ph="CREATE TABLE... chofer_despidos" />
+            <marker date="1561337347654" expanded="true" signature="503:654" ph="CREATE TABLE... chofer" />
+            <marker date="1561337347654" expanded="true" signature="657:703" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="712:785" ph="CREATE TABLE... chofer_camion" />
+            <marker date="1561337347654" expanded="true" signature="796:933" ph="CREATE TABLE... camion" />
+            <marker date="1561337347654" expanded="true" signature="937:1041" ph="CREATE TABLE... DESTINO" />
+            <marker date="1561337347654" expanded="true" signature="1044:1094" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1095:1164" ph="CREATE TABLE... destino_ciudad" />
+            <marker date="1561337347654" expanded="true" signature="1175:1279" ph="CREATE TABLE... bodegas" />
+            <marker date="1561337347654" expanded="true" signature="1282:1389" ph="CREATE TABLE... productos" />
+            <marker date="1561337347654" expanded="true" signature="1392:1451" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1460:1516" ph="CREATE TABLE... producto_detalle" />
+            <marker date="1561337347654" expanded="true" signature="1519:1640" ph="CREATE TABLE... detalle_envios" />
+            <marker date="1561337347654" expanded="true" signature="1651:1753" ph="CREATE TABLE... envios" />
+            <marker date="1561337347654" expanded="true" signature="1764:1812" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1813:1882" ph="CREATE TABLE... envio_camion" />
+            <marker date="1561337347654" expanded="true" signature="1885:1940" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1941:1991" ph="CREATE TABLE... envio_detalle" />
+            <marker date="1561337347654" expanded="true" signature="2010:2057" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="2058:2124" ph="CREATE TABLE... envio_chofer" />
+            <marker date="1561337347654" expanded="true" signature="2127:2175" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="2176:2243" ph="CREATE TABLE... envio_destino" />
           </folding>
         </state>
       </provider>
@@ -392,31 +437,31 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1561333221189" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
-            <marker date="1561333221189" expanded="true" signature="270:386" ph="CREATE TABLE... despedidos" />
-            <marker date="1561333221189" expanded="true" signature="395:445" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="446:500" ph="CREATE TABLE... chofer_despidos" />
-            <marker date="1561333221189" expanded="true" signature="503:654" ph="CREATE TABLE... chofer" />
-            <marker date="1561333221189" expanded="true" signature="657:703" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="712:785" ph="CREATE TABLE... chofer_camion" />
-            <marker date="1561333221189" expanded="true" signature="796:933" ph="CREATE TABLE... camion" />
-            <marker date="1561333221189" expanded="true" signature="937:1041" ph="CREATE TABLE... DESTINO" />
-            <marker date="1561333221189" expanded="true" signature="1044:1094" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1095:1165" ph="CREATE TABLE... destino_ciudad" />
-            <marker date="1561333221189" expanded="true" signature="1175:1279" ph="CREATE TABLE... bodegas" />
-            <marker date="1561333221189" expanded="true" signature="1282:1389" ph="CREATE TABLE... productos" />
-            <marker date="1561333221189" expanded="true" signature="1392:1451" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1460:1516" ph="CREATE TABLE... producto_detalle" />
-            <marker date="1561333221189" expanded="true" signature="1519:1640" ph="CREATE TABLE... detalle_envios" />
-            <marker date="1561333221189" expanded="true" signature="1651:1753" ph="CREATE TABLE... envios" />
-            <marker date="1561333221189" expanded="true" signature="1764:1812" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1813:1882" ph="CREATE TABLE... envio_camion" />
-            <marker date="1561333221189" expanded="true" signature="1885:1940" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1941:1991" ph="CREATE TABLE... envio_detalle" />
-            <marker date="1561333221189" expanded="true" signature="2010:2057" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="2058:2124" ph="CREATE TABLE... envio_chofer" />
-            <marker date="1561333221189" expanded="true" signature="2127:2175" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="2176:2243" ph="CREATE TABLE... envio_destino" />
+            <marker date="1561337347654" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
+            <marker date="1561337347654" expanded="true" signature="270:386" ph="CREATE TABLE... despedidos" />
+            <marker date="1561337347654" expanded="true" signature="395:445" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="446:500" ph="CREATE TABLE... chofer_despidos" />
+            <marker date="1561337347654" expanded="true" signature="503:654" ph="CREATE TABLE... chofer" />
+            <marker date="1561337347654" expanded="true" signature="657:703" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="712:785" ph="CREATE TABLE... chofer_camion" />
+            <marker date="1561337347654" expanded="true" signature="796:933" ph="CREATE TABLE... camion" />
+            <marker date="1561337347654" expanded="true" signature="937:1041" ph="CREATE TABLE... DESTINO" />
+            <marker date="1561337347654" expanded="true" signature="1044:1094" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1095:1164" ph="CREATE TABLE... destino_ciudad" />
+            <marker date="1561337347654" expanded="true" signature="1175:1279" ph="CREATE TABLE... bodegas" />
+            <marker date="1561337347654" expanded="true" signature="1282:1389" ph="CREATE TABLE... productos" />
+            <marker date="1561337347654" expanded="true" signature="1392:1451" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1460:1516" ph="CREATE TABLE... producto_detalle" />
+            <marker date="1561337347654" expanded="true" signature="1519:1640" ph="CREATE TABLE... detalle_envios" />
+            <marker date="1561337347654" expanded="true" signature="1651:1753" ph="CREATE TABLE... envios" />
+            <marker date="1561337347654" expanded="true" signature="1764:1812" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1813:1882" ph="CREATE TABLE... envio_camion" />
+            <marker date="1561337347654" expanded="true" signature="1885:1940" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1941:1991" ph="CREATE TABLE... envio_detalle" />
+            <marker date="1561337347654" expanded="true" signature="2010:2057" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="2058:2124" ph="CREATE TABLE... envio_chofer" />
+            <marker date="1561337347654" expanded="true" signature="2127:2175" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="2176:2243" ph="CREATE TABLE... envio_destino" />
           </folding>
         </state>
       </provider>
@@ -427,31 +472,31 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1561333221189" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
-            <marker date="1561333221189" expanded="true" signature="270:386" ph="CREATE TABLE... despedidos" />
-            <marker date="1561333221189" expanded="true" signature="395:445" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="446:500" ph="CREATE TABLE... chofer_despidos" />
-            <marker date="1561333221189" expanded="true" signature="503:654" ph="CREATE TABLE... chofer" />
-            <marker date="1561333221189" expanded="true" signature="657:703" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="712:785" ph="CREATE TABLE... chofer_camion" />
-            <marker date="1561333221189" expanded="true" signature="796:933" ph="CREATE TABLE... camion" />
-            <marker date="1561333221189" expanded="true" signature="937:1041" ph="CREATE TABLE... DESTINO" />
-            <marker date="1561333221189" expanded="true" signature="1044:1094" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1095:1165" ph="CREATE TABLE... destino_ciudad" />
-            <marker date="1561333221189" expanded="true" signature="1175:1279" ph="CREATE TABLE... bodegas" />
-            <marker date="1561333221189" expanded="true" signature="1282:1389" ph="CREATE TABLE... productos" />
-            <marker date="1561333221189" expanded="true" signature="1392:1451" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1460:1516" ph="CREATE TABLE... producto_detalle" />
-            <marker date="1561333221189" expanded="true" signature="1519:1640" ph="CREATE TABLE... detalle_envios" />
-            <marker date="1561333221189" expanded="true" signature="1651:1753" ph="CREATE TABLE... envios" />
-            <marker date="1561333221189" expanded="true" signature="1764:1812" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1813:1882" ph="CREATE TABLE... envio_camion" />
-            <marker date="1561333221189" expanded="true" signature="1885:1940" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1941:1991" ph="CREATE TABLE... envio_detalle" />
-            <marker date="1561333221189" expanded="true" signature="2010:2057" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="2058:2124" ph="CREATE TABLE... envio_chofer" />
-            <marker date="1561333221189" expanded="true" signature="2127:2175" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="2176:2243" ph="CREATE TABLE... envio_destino" />
+            <marker date="1561337347654" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
+            <marker date="1561337347654" expanded="true" signature="270:386" ph="CREATE TABLE... despedidos" />
+            <marker date="1561337347654" expanded="true" signature="395:445" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="446:500" ph="CREATE TABLE... chofer_despidos" />
+            <marker date="1561337347654" expanded="true" signature="503:654" ph="CREATE TABLE... chofer" />
+            <marker date="1561337347654" expanded="true" signature="657:703" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="712:785" ph="CREATE TABLE... chofer_camion" />
+            <marker date="1561337347654" expanded="true" signature="796:933" ph="CREATE TABLE... camion" />
+            <marker date="1561337347654" expanded="true" signature="937:1041" ph="CREATE TABLE... DESTINO" />
+            <marker date="1561337347654" expanded="true" signature="1044:1094" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1095:1164" ph="CREATE TABLE... destino_ciudad" />
+            <marker date="1561337347654" expanded="true" signature="1175:1279" ph="CREATE TABLE... bodegas" />
+            <marker date="1561337347654" expanded="true" signature="1282:1389" ph="CREATE TABLE... productos" />
+            <marker date="1561337347654" expanded="true" signature="1392:1451" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1460:1516" ph="CREATE TABLE... producto_detalle" />
+            <marker date="1561337347654" expanded="true" signature="1519:1640" ph="CREATE TABLE... detalle_envios" />
+            <marker date="1561337347654" expanded="true" signature="1651:1753" ph="CREATE TABLE... envios" />
+            <marker date="1561337347654" expanded="true" signature="1764:1812" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1813:1882" ph="CREATE TABLE... envio_camion" />
+            <marker date="1561337347654" expanded="true" signature="1885:1940" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1941:1991" ph="CREATE TABLE... envio_detalle" />
+            <marker date="1561337347654" expanded="true" signature="2010:2057" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="2058:2124" ph="CREATE TABLE... envio_chofer" />
+            <marker date="1561337347654" expanded="true" signature="2127:2175" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="2176:2243" ph="CREATE TABLE... envio_destino" />
           </folding>
         </state>
       </provider>
@@ -464,121 +509,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <marker date="1561278029918" expanded="true" signature="187:323" ph="INSERT INTO chofer... " />
-            <marker date="1561278029918" expanded="true" signature="329:464" ph="INSERT INTO chofer... " />
-            <marker date="1561278029918" expanded="true" signature="470:604" ph="INSERT INTO chofer... " />
-            <marker date="1561278029918" expanded="true" signature="610:743" ph="INSERT INTO chofer... " />
-            <marker date="1561278029918" expanded="true" signature="749:883" ph="INSERT INTO chofer... " />
-            <marker date="1561278029918" expanded="true" signature="891:1025" ph="INSERT INTO chofer... " />
-            <marker date="1561278029918" expanded="true" signature="1031:1100" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="1115:1242" ph="INSERT INTO camion... " />
-            <marker date="1561278029918" expanded="true" signature="1248:1375" ph="INSERT INTO camion... " />
-            <marker date="1561278029918" expanded="true" signature="1381:1508" ph="INSERT INTO camion... " />
-            <marker date="1561278029918" expanded="true" signature="1534:1661" ph="INSERT INTO camion... " />
-            <marker date="1561278029918" expanded="true" signature="1677:1744" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="1759:1866" ph="INSERT INTO despedidos... " />
-            <marker date="1561278029918" expanded="true" signature="1872:1939" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="1944:2010" ph="INSERT INTO chofer_despidos... " />
-            <marker date="1561278029918" expanded="true" signature="2016:2083" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="2088:2172" ph="INSERT INTO chofer_camion... " />
-            <marker date="1561278029918" expanded="true" signature="2181:2265" ph="INSERT INTO chofer_camion... " />
-            <marker date="1561278029918" expanded="true" signature="2273:2356" ph="INSERT INTO chofer_camion... " />
-            <marker date="1561278029918" expanded="true" signature="2366:2450" ph="INSERT INTO chofer_camion... " />
-            <marker date="1561278029918" expanded="true" signature="2456:2539" ph="INSERT INTO chofer_camion... " />
-            <marker date="1561278029918" expanded="true" signature="2613:2708" ph="INSERT INTO destino... " />
-            <marker date="1561278029918" expanded="true" signature="2714:2805" ph="INSERT INTO destino... " />
-            <marker date="1561278029918" expanded="true" signature="2811:2909" ph="INSERT INTO destino... " />
-            <marker date="1561278029918" expanded="true" signature="2915:3010" ph="INSERT INTO destino... " />
-            <marker date="1561278029918" expanded="true" signature="3016:3107" ph="INSERT INTO destino... " />
-            <marker date="1561278029918" expanded="true" signature="3113:3167" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="3182:3285" ph="INSERT INTO bodegas... " />
-            <marker date="1561278029918" expanded="true" signature="3301:3408" ph="INSERT INTO bodegas... " />
-            <marker date="1561278029918" expanded="true" signature="3414:3515" ph="INSERT INTO bodegas... " />
-            <marker date="1561278029918" expanded="true" signature="3521:3622" ph="INSERT INTO bodegas... " />
-            <marker date="1561278029918" expanded="true" signature="3628:3734" ph="INSERT INTO bodegas... " />
-            <marker date="1561278029918" expanded="true" signature="3740:3848" ph="INSERT INTO bodegas... " />
-            <marker date="1561278029918" expanded="true" signature="3854:3911" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="3916:4000" ph="INSERT INTO destino_ciudad... " />
-            <marker date="1561278029918" expanded="true" signature="4006:4090" ph="INSERT INTO destino_ciudad... " />
-            <marker date="1561278029918" expanded="true" signature="4106:4190" ph="INSERT INTO destino_ciudad... " />
-            <marker date="1561278029918" expanded="true" signature="4196:4280" ph="INSERT INTO destino_ciudad... " />
-            <marker date="1561278029918" expanded="true" signature="4286:4370" ph="INSERT INTO destino_ciudad... " />
-            <marker date="1561278029918" expanded="true" signature="4376:4460" ph="INSERT INTO destino_ciudad... " />
-            <marker date="1561278029918" expanded="true" signature="4530:4587" ph="INSERT INTO envios... " />
-            <marker date="1561278029918" expanded="true" signature="4530:4641" ph="INSERT INTO envios... " />
-            <marker date="1561278029918" expanded="true" signature="4647:4758" ph="INSERT INTO envios... " />
-            <marker date="1561278029918" expanded="true" signature="4774:4885" ph="INSERT INTO envios... " />
-            <marker date="1561278029918" expanded="true" signature="4891:5002" ph="INSERT INTO envios... " />
-            <marker date="1561278029918" expanded="true" signature="5008:5067" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="5077:5172" ph="INSERT INTO productos... " />
-            <marker date="1561278029918" expanded="true" signature="5178:5274" ph="INSERT INTO productos... " />
-            <marker date="1561278029918" expanded="true" signature="5290:5386" ph="INSERT INTO productos... " />
-            <marker date="1561278029918" expanded="true" signature="5402:5505" ph="INSERT INTO productos... " />
-            <marker date="1561278029918" expanded="true" signature="5511:5570" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="5580:5676" ph="INSERT INTO detalle_envio... " />
-            <marker date="1561278029918" expanded="true" signature="5682:5779" ph="INSERT INTO detalle_envio... " />
-            <marker date="1561278029918" expanded="true" signature="5805:5901" ph="INSERT INTO detalle_envio... " />
-            <marker date="1561278029918" expanded="true" signature="5907:6004" ph="INSERT INTO detalle_envio... " />
-            <marker date="1561278029918" expanded="true" signature="6010:6073" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="6083:6145" ph="INSERT INTO envio_detalle... " />
-            <marker date="1561278029918" expanded="true" signature="6151:6213" ph="INSERT INTO envio_detalle... " />
-            <marker date="1561278029918" expanded="true" signature="6229:6291" ph="INSERT INTO envio_detalle... " />
-            <marker date="1561278029918" expanded="true" signature="6297:6359" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="6369:6437" ph="INSERT INTO producto_detalle... " />
-            <marker date="1561278029918" expanded="true" signature="6453:6521" ph="INSERT INTO producto_detalle... " />
-            <marker date="1561278029918" expanded="true" signature="6537:6606" ph="INSERT INTO producto_detalle... " />
-            <marker date="1561278029918" expanded="true" signature="6622:6686" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="6696:6776" ph="INSERT INTO envio_camion... " />
-            <marker date="1561278029918" expanded="true" signature="6792:6872" ph="INSERT INTO envio_camion... " />
-            <marker date="1561278029918" expanded="true" signature="6879:6959" ph="INSERT INTO envio_camion... " />
-            <marker date="1561278029918" expanded="true" signature="6966:7030" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="7040:7120" ph="INSERT INTO envio_chofer... " />
-            <marker date="1561278029918" expanded="true" signature="7135:7214" ph="INSERT INTO envio_chofer... " />
-            <marker date="1561278029918" expanded="true" signature="7230:7310" ph="INSERT INTO envio_chofer... " />
-            <marker date="1561278029918" expanded="true" signature="7317:7381" ph="/*----------... " />
-            <marker date="1561278029918" expanded="true" signature="7391:7471" ph="INSERT INTO envio_destino... " />
-            <marker date="1561278029918" expanded="true" signature="7477:7557" ph="INSERT INTO envio_destino... " />
-            <marker date="1561278029918" expanded="true" signature="7583:7663" ph="INSERT INTO envio_destino... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/borrarTablas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <marker date="1561331762000" expanded="true" signature="179:243" ph="select 'drop... pg_tables" />
-            <marker date="1561331762000" expanded="true" signature="278:299" ph="DROP TABLE d... " />
-            <marker date="1561331762000" expanded="true" signature="301:329" ph="DROP TABLE c... " />
-            <marker date="1561331762000" expanded="true" signature="331:348" ph="DROP TABLE c... " />
-            <marker date="1561331762000" expanded="true" signature="350:374" ph="DROP TABLE c... " />
-            <marker date="1561331762000" expanded="true" signature="376:393" ph="DROP TABLE c... " />
-            <marker date="1561331762000" expanded="true" signature="395:413" ph="DROP TABLE d... " />
-            <marker date="1561331762000" expanded="true" signature="415:440" ph="DROP TABLE d... " />
-            <marker date="1561331762000" expanded="true" signature="442:460" ph="DROP TABLE b... " />
-            <marker date="1561331762000" expanded="true" signature="462:482" ph="DROP TABLE p... " />
-            <marker date="1561331762000" expanded="true" signature="484:511" ph="DROP TABLE p... " />
-            <marker date="1561331762000" expanded="true" signature="513:537" ph="DROP TABLE d... " />
-            <marker date="1561331762000" expanded="true" signature="539:556" ph="DROP TABLE e... " />
-            <marker date="1561331762000" expanded="true" signature="558:581" ph="DROP TABLE e... " />
-            <marker date="1561331762000" expanded="true" signature="583:607" ph="DROP TABLE e... " />
-            <marker date="1561331762000" expanded="true" signature="609:632" ph="DROP TABLE e... " />
-            <marker date="1561331762000" expanded="true" signature="634:658" ph="DROP TABLE e... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/psycopg2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
+        <state relative-caret-position="739">
           <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding />
         </state>
@@ -586,43 +519,155 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datosMaster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="89" lean-forward="true" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
+        <state relative-caret-position="238">
+          <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1561333221189" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
-            <marker date="1561333221189" expanded="true" signature="270:386" ph="CREATE TABLE... despedidos" />
-            <marker date="1561333221189" expanded="true" signature="395:445" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="446:500" ph="CREATE TABLE... chofer_despidos" />
-            <marker date="1561333221189" expanded="true" signature="503:654" ph="CREATE TABLE... chofer" />
-            <marker date="1561333221189" expanded="true" signature="657:703" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="712:785" ph="CREATE TABLE... chofer_camion" />
-            <marker date="1561333221189" expanded="true" signature="796:933" ph="CREATE TABLE... camion" />
-            <marker date="1561333221189" expanded="true" signature="937:1041" ph="CREATE TABLE... DESTINO" />
-            <marker date="1561333221189" expanded="true" signature="1044:1094" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1095:1165" ph="CREATE TABLE... destino_ciudad" />
-            <marker date="1561333221189" expanded="true" signature="1175:1279" ph="CREATE TABLE... bodegas" />
-            <marker date="1561333221189" expanded="true" signature="1282:1389" ph="CREATE TABLE... productos" />
-            <marker date="1561333221189" expanded="true" signature="1392:1451" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1460:1516" ph="CREATE TABLE... producto_detalle" />
-            <marker date="1561333221189" expanded="true" signature="1519:1640" ph="CREATE TABLE... detalle_envios" />
-            <marker date="1561333221189" expanded="true" signature="1651:1753" ph="CREATE TABLE... envios" />
-            <marker date="1561333221189" expanded="true" signature="1764:1812" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1813:1882" ph="CREATE TABLE... envio_camion" />
-            <marker date="1561333221189" expanded="true" signature="1885:1940" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="1941:1991" ph="CREATE TABLE... envio_detalle" />
-            <marker date="1561333221189" expanded="true" signature="2010:2057" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="2058:2124" ph="CREATE TABLE... envio_chofer" />
-            <marker date="1561333221189" expanded="true" signature="2127:2175" ph="/*TABLA RELA... " />
-            <marker date="1561333221189" expanded="true" signature="2176:2243" ph="CREATE TABLE... envio_destino" />
+            <marker date="1561337347654" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
+            <marker date="1561337347654" expanded="true" signature="270:386" ph="CREATE TABLE... despedidos" />
+            <marker date="1561337347654" expanded="true" signature="395:445" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="446:500" ph="CREATE TABLE... chofer_despidos" />
+            <marker date="1561337347654" expanded="true" signature="503:654" ph="CREATE TABLE... chofer" />
+            <marker date="1561337347654" expanded="true" signature="657:703" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="712:785" ph="CREATE TABLE... chofer_camion" />
+            <marker date="1561337347654" expanded="true" signature="796:933" ph="CREATE TABLE... camion" />
+            <marker date="1561337347654" expanded="true" signature="937:1041" ph="CREATE TABLE... DESTINO" />
+            <marker date="1561337347654" expanded="true" signature="1044:1094" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1095:1164" ph="CREATE TABLE... destino_ciudad" />
+            <marker date="1561337347654" expanded="true" signature="1175:1279" ph="CREATE TABLE... bodegas" />
+            <marker date="1561337347654" expanded="true" signature="1282:1389" ph="CREATE TABLE... productos" />
+            <marker date="1561337347654" expanded="true" signature="1392:1451" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1460:1516" ph="CREATE TABLE... producto_detalle" />
+            <marker date="1561337347654" expanded="true" signature="1519:1640" ph="CREATE TABLE... detalle_envios" />
+            <marker date="1561337347654" expanded="true" signature="1651:1753" ph="CREATE TABLE... envios" />
+            <marker date="1561337347654" expanded="true" signature="1764:1812" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1813:1882" ph="CREATE TABLE... envio_camion" />
+            <marker date="1561337347654" expanded="true" signature="1885:1940" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="1941:1991" ph="CREATE TABLE... envio_detalle" />
+            <marker date="1561337347654" expanded="true" signature="2010:2057" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="2058:2124" ph="CREATE TABLE... envio_chofer" />
+            <marker date="1561337347654" expanded="true" signature="2127:2175" ph="/*TABLA RELA... " />
+            <marker date="1561337347654" expanded="true" signature="2176:2243" ph="CREATE TABLE... envio_destino" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/borrarTablas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1561335438386" expanded="true" signature="179:243" ph="select 'drop... pg_tables" />
+            <marker date="1561335438386" expanded="true" signature="278:299" ph="DROP TABLE d... " />
+            <marker date="1561335438386" expanded="true" signature="301:327" ph="DROP TABLE c... " />
+            <marker date="1561335438386" expanded="true" signature="329:346" ph="DROP TABLE c... " />
+            <marker date="1561335438386" expanded="true" signature="348:372" ph="DROP TABLE c... " />
+            <marker date="1561335438386" expanded="true" signature="374:391" ph="DROP TABLE c... " />
+            <marker date="1561335438386" expanded="true" signature="393:411" ph="DROP TABLE d... " />
+            <marker date="1561335438386" expanded="true" signature="413:438" ph="DROP TABLE d... " />
+            <marker date="1561335438386" expanded="true" signature="440:458" ph="DROP TABLE b... " />
+            <marker date="1561335438386" expanded="true" signature="460:480" ph="DROP TABLE p... " />
+            <marker date="1561335438386" expanded="true" signature="482:509" ph="DROP TABLE p... " />
+            <marker date="1561335438386" expanded="true" signature="511:536" ph="DROP TABLE d... " />
+            <marker date="1561335438386" expanded="true" signature="538:555" ph="DROP TABLE e... " />
+            <marker date="1561335438386" expanded="true" signature="557:580" ph="DROP TABLE e... " />
+            <marker date="1561335438386" expanded="true" signature="582:606" ph="DROP TABLE e... " />
+            <marker date="1561335438386" expanded="true" signature="608:631" ph="DROP TABLE e... " />
+            <marker date="1561335438386" expanded="true" signature="633:657" ph="DROP TABLE e... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1561337347694" expanded="true" signature="184:320" ph="INSERT INTO chofer... " />
+            <marker date="1561337347694" expanded="true" signature="326:461" ph="INSERT INTO chofer... " />
+            <marker date="1561337347694" expanded="true" signature="467:601" ph="INSERT INTO chofer... " />
+            <marker date="1561337347694" expanded="true" signature="607:740" ph="INSERT INTO chofer... " />
+            <marker date="1561337347694" expanded="true" signature="746:880" ph="INSERT INTO chofer... " />
+            <marker date="1561337347694" expanded="true" signature="888:1022" ph="INSERT INTO chofer... " />
+            <marker date="1561337347694" expanded="true" signature="1028:1097" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="1112:1239" ph="INSERT INTO camion... " />
+            <marker date="1561337347694" expanded="true" signature="1245:1372" ph="INSERT INTO camion... " />
+            <marker date="1561337347694" expanded="true" signature="1378:1505" ph="INSERT INTO camion... " />
+            <marker date="1561337347694" expanded="true" signature="1531:1658" ph="INSERT INTO camion... " />
+            <marker date="1561337347694" expanded="true" signature="1674:1741" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="1756:1863" ph="INSERT INTO despedidos... " />
+            <marker date="1561337347694" expanded="true" signature="1869:1936" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="1941:2007" ph="INSERT INTO chofer_despidos... " />
+            <marker date="1561337347694" expanded="true" signature="2013:2080" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="2085:2169" ph="INSERT INTO chofer_camion... " />
+            <marker date="1561337347694" expanded="true" signature="2178:2262" ph="INSERT INTO chofer_camion... " />
+            <marker date="1561337347694" expanded="true" signature="2270:2353" ph="INSERT INTO chofer_camion... " />
+            <marker date="1561337347694" expanded="true" signature="2363:2447" ph="INSERT INTO chofer_camion... " />
+            <marker date="1561337347694" expanded="true" signature="2453:2536" ph="INSERT INTO chofer_camion... " />
+            <marker date="1561337347694" expanded="true" signature="2610:2705" ph="INSERT INTO destino... " />
+            <marker date="1561337347694" expanded="true" signature="2711:2802" ph="INSERT INTO destino... " />
+            <marker date="1561337347694" expanded="true" signature="2808:2906" ph="INSERT INTO destino... " />
+            <marker date="1561337347694" expanded="true" signature="2912:3007" ph="INSERT INTO destino... " />
+            <marker date="1561337347694" expanded="true" signature="3013:3104" ph="INSERT INTO destino... " />
+            <marker date="1561337347694" expanded="true" signature="3110:3164" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="3179:3282" ph="INSERT INTO bodegas... " />
+            <marker date="1561337347694" expanded="true" signature="3298:3405" ph="INSERT INTO bodegas... " />
+            <marker date="1561337347694" expanded="true" signature="3411:3512" ph="INSERT INTO bodegas... " />
+            <marker date="1561337347694" expanded="true" signature="3518:3619" ph="INSERT INTO bodegas... " />
+            <marker date="1561337347694" expanded="true" signature="3625:3731" ph="INSERT INTO bodegas... " />
+            <marker date="1561337347694" expanded="true" signature="3737:3845" ph="INSERT INTO bodegas... " />
+            <marker date="1561337347694" expanded="true" signature="3851:3908" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="3913:3997" ph="INSERT INTO destino_ciudad... " />
+            <marker date="1561337347694" expanded="true" signature="4003:4087" ph="INSERT INTO destino_ciudad... " />
+            <marker date="1561337347694" expanded="true" signature="4103:4187" ph="INSERT INTO destino_ciudad... " />
+            <marker date="1561337347694" expanded="true" signature="4193:4277" ph="INSERT INTO destino_ciudad... " />
+            <marker date="1561337347694" expanded="true" signature="4283:4367" ph="INSERT INTO destino_ciudad... " />
+            <marker date="1561337347694" expanded="true" signature="4373:4457" ph="INSERT INTO destino_ciudad... " />
+            <marker date="1561337347694" expanded="true" signature="4527:4584" ph="INSERT INTO envios... " />
+            <marker date="1561337347694" expanded="true" signature="4527:4638" ph="INSERT INTO envios... " />
+            <marker date="1561337347694" expanded="true" signature="4644:4755" ph="INSERT INTO envios... " />
+            <marker date="1561337347694" expanded="true" signature="4771:4882" ph="INSERT INTO envios... " />
+            <marker date="1561337347694" expanded="true" signature="4888:4999" ph="INSERT INTO envios... " />
+            <marker date="1561337347694" expanded="true" signature="5005:5064" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="5074:5169" ph="INSERT INTO productos... " />
+            <marker date="1561337347694" expanded="true" signature="5175:5271" ph="INSERT INTO productos... " />
+            <marker date="1561337347694" expanded="true" signature="5287:5383" ph="INSERT INTO productos... " />
+            <marker date="1561337347694" expanded="true" signature="5399:5502" ph="INSERT INTO productos... " />
+            <marker date="1561337347694" expanded="true" signature="5508:5567" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="5577:5674" ph="INSERT INTO detalle_envios... " />
+            <marker date="1561337347694" expanded="true" signature="5680:5778" ph="INSERT INTO detalle_envios... " />
+            <marker date="1561337347694" expanded="true" signature="5804:5901" ph="INSERT INTO detalle_envios... " />
+            <marker date="1561337347694" expanded="true" signature="5907:6005" ph="INSERT INTO detalle_envios... " />
+            <marker date="1561337347694" expanded="true" signature="6011:6074" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="6084:6146" ph="INSERT INTO envio_detalle... " />
+            <marker date="1561337347694" expanded="true" signature="6152:6214" ph="INSERT INTO envio_detalle... " />
+            <marker date="1561337347694" expanded="true" signature="6230:6292" ph="INSERT INTO envio_detalle... " />
+            <marker date="1561337347694" expanded="true" signature="6298:6360" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="6370:6438" ph="INSERT INTO producto_detalle... " />
+            <marker date="1561337347694" expanded="true" signature="6454:6522" ph="INSERT INTO producto_detalle... " />
+            <marker date="1561337347694" expanded="true" signature="6538:6607" ph="INSERT INTO producto_detalle... " />
+            <marker date="1561337347694" expanded="true" signature="6623:6687" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="6697:6777" ph="INSERT INTO envio_camion... " />
+            <marker date="1561337347694" expanded="true" signature="6793:6873" ph="INSERT INTO envio_camion... " />
+            <marker date="1561337347694" expanded="true" signature="6880:6960" ph="INSERT INTO envio_camion... " />
+            <marker date="1561337347694" expanded="true" signature="6967:7031" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="7041:7121" ph="INSERT INTO envio_chofer... " />
+            <marker date="1561337347694" expanded="true" signature="7136:7215" ph="INSERT INTO envio_chofer... " />
+            <marker date="1561337347694" expanded="true" signature="7231:7311" ph="INSERT INTO envio_chofer... " />
+            <marker date="1561337347694" expanded="true" signature="7318:7382" ph="/*----------... " />
+            <marker date="1561337347694" expanded="true" signature="7392:7472" ph="INSERT INTO envio_destino... " />
+            <marker date="1561337347694" expanded="true" signature="7478:7558" ph="INSERT INTO envio_destino... " />
+            <marker date="1561337347694" expanded="true" signature="7584:7664" ph="INSERT INTO envio_destino... " />
           </folding>
         </state>
       </provider>

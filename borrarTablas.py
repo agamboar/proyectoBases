@@ -13,7 +13,7 @@ cur.execute(sql)
 sql= '''
 
 DROP TABLE despedidos;
-DROP TABLE chofer_despedidos;
+DROP TABLE chofer_despidos;
 DROP TABLE chofer;
 DROP TABLE chofer_camion;
 DROP TABLE camion;
@@ -22,7 +22,7 @@ DROP TABLE destino_ciudad;
 DROP TABLE bodegas;
 DROP TABLE productos;
 DROP TABLE producto_detalle;
-DROP TABLE detalle_envio;
+DROP TABLE detalle_envios;
 DROP TABLE envios;
 DROP TABLE envio_camion;
 DROP TABLE envio_detalle;

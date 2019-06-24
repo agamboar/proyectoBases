@@ -1,7 +1,7 @@
 import psycopg2 as psq
 from datosMaster import *
 
-conexion = psq.connect("dbname=%s user=%s host=%s password=%s"%(database, user, host, password))
+conexion = psq.connect("dbname=%s user=%s host=%s password=%s"%(database,user,host,password))
 
 cur = conexion.cursor()
 
@@ -111,13 +111,13 @@ sql = '''
               VALUES(1011, 'Louis Vuitton', 'Cartera');
     /*-------------------------------------------------------*/
     
-    INSERT INTO detalle_envio(cod_envio, con_producto, cantidad)
+    INSERT INTO detalle_envios(cod_envio, cod_producto, cantidad)
               VALUES(123, 977, 500);
-    INSERT INTO detalle_envio(cod_envio, con_producto, cantidad)
+    INSERT INTO detalle_envios(cod_envio, cod_producto, cantidad)
               VALUES(123, 1010, 300);                    
-    INSERT INTO detalle_envio(cod_envio, con_producto, cantidad)
+    INSERT INTO detalle_envios(cod_envio, cod_producto, cantidad)
               VALUES(125, 977, 700);
-    INSERT INTO detalle_envio(cod_envio, con_producto, cantidad)
+    INSERT INTO detalle_envios(cod_envio, cod_producto, cantidad)
               VALUES(126, 980, 1000);
     /*-----------------------------------------------------------*/
     
