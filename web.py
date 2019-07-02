@@ -6,8 +6,10 @@ import psycopg2 as psq
 conn = psq.connect("dbname=%s user=%s host=%s password=%s"%(database,user,host,password))
 
 cur = conn.cursor()
+cur.execute("ROLLBACK")
+conn.commit()
 
-app=Flask(__name__)
+app = Flask(__name__)
 
 
 @app.route('/')
@@ -46,7 +48,7 @@ def index():
     sql="""
     select *
     from envios
-    order by envios.limite;
+    order by envios.fecha_limite;
 
     """
     cur.execute(sql)
