@@ -21,7 +21,7 @@ where camion.capacidad = (select max(camion.capacidad) from camion);
 
 select *
 from envios
-order by envios.limite;
+order by envios.fecha_limite;
 
 5.- Envios que deben transportar productos NIKE
 
