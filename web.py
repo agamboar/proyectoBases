@@ -23,7 +23,7 @@ def index():
     where chofer.sueldo>700000;
     """
     cur.execute(sql)
-    choferSueldo = cur.fetchall()
+    chofer1 = cur.fetchall()
 
     sql ="""
     
@@ -35,7 +35,7 @@ def index():
     """
 
     cur.execute(sql)
-    choferPatente=cur.fetchall()
+    chofer2=cur.fetchall()
 
     sql="""
     select camion.capacidad, camion.patente, camion.empresa
@@ -43,7 +43,7 @@ def index():
     where camion.capacidad = (select max(camion.capacidad) from camion);
     """
     cur.execute(sql)
-    camionCapacidad=cur.fetchall()
+    camion1=cur.fetchall()
 
     sql="""
     select *
@@ -52,7 +52,7 @@ def index():
 
     """
     cur.execute(sql)
-    envioFecha=cur.fetchall()
+    envio1=cur.fetchall()
 
     sql="""
     select envios.cod_envio, envios.fecha_pedido
@@ -63,7 +63,7 @@ def index():
 
     """
     cur.execute(sql)
-    envioNike=cur.fetchall()
+    envio2=cur.fetchall()
 
     sql="""
     select camion.patente, camion.fecha_ult_mantencion
@@ -71,7 +71,7 @@ def index():
     order by camion.fecha_ult_mantencion;
     """
     cur.execute(sql)
-    camionOrden=cur.fetchall()
+    camion2=cur.fetchall()
 
     sql="""
     select camion.empresa, SUM(camion.capacidad) as CapacidadTotal
@@ -80,7 +80,7 @@ def index():
 
     """
     cur.execute(sql)
-    camionCarga=cur.fetchall()
+    camion3=cur.fetchall()
 
     sql="""
     select detalle_envios.cod_envio, SUM(detalle_envios.cantidad) as TotalCantidad
@@ -89,8 +89,8 @@ def index():
 
     """
     cur.execute(sql)
-    envioProductos=cur.fetchall()
-    return render_template("index.html", choferSueldo=choferSueldo)
+    envio4=cur.fetchall()
+    return render_template("index.html", chofer1=chofer1, chofer2=chofer2, camion1=camion1, envio1=envio1, envio2=envio2, camion2=camion2, camion3=camion3, envio4=envio4)
 
 
 if __name__=="__main__":

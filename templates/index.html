@@ -495,20 +495,20 @@ function myFunction8() {
                   <h3>Choferes que ganen más de 700.000 pesos</h3>
                   
               <div id="t1">
-                   <table class="table">
-                      <thead class="thead-dark">
+                   <table class="table table-striped table-dark">
+
                           <tr>
                           <th>Rut</th>
                           <th>Sueldo</th>
-                          <th>Estado</th>
+                          <th>Despedido</th>
                           </tr>
-                      </thead>
+
                       <tbody>
-                        {% for rut, sueldo, estado in chofer1 %}
+                        {% for rut, sueldo, despedido in chofer1 %}
                             <tr>
                                 <td>{{ rut }}</td>
                                 <td>{{ sueldo }}</td>
-                                <td>{{ estado }}</td>
+                                <td>{{ despedido }}</td>
                             </tr>
                         {% endfor %}
                       </tbody>
@@ -523,19 +523,19 @@ function myFunction8() {
                   <h3>Datos de los choferes que manejen el camion DFPK12</h3>
                   
               <div id="t2">
-                   <table class="table">
-                      <thead class="thead-dark">
+                   <table class="table table-striped table-dark">
+
                           <tr>
                           <th>Nombre</th>
                           <th>Apellido</th>
                           <th>Rut</th>
                           </tr>
-                      </thead>
+
                       <tbody>
-                        {% for nombre, apellido,rut in chofer2 %}
+                        {% for nombre, apellidoP ,rut in chofer2 %}
                             <tr>
                                 <td>{{ nombre }}</td>
-                                <td>{{ apellido }}</td>
+                                <td>{{ apellidoP }}</td>
                                 <td>{{ rut }}</td>
                             </tr>
                         {% endfor %}
@@ -570,16 +570,19 @@ function myFunction8() {
                   <h3>Patente y empresa del camión con más capacidad de carga</h3>
 
               <div id="t3">
-                   <table class="table">
-                      <thead class="thead-dark">
+
+                   <table class="table table-striped table-dark">
+
                           <tr>
+                          <th>Capacidad</th>
                           <th>Patente</th>
                           <th>Empresa</th>
                           </tr>
-                      </thead>
+
                       <tbody>
-                        {% for patente, empresa in camion1 %}
+                        {% for capacidad, patente, empresa in camion1 %}
                             <tr>
+                                <td>{{ capacidad }}</td>
                                 <td>{{ patente }}</td>
                                 <td>{{ empresa }}</td>
                             </tr>
@@ -596,20 +599,20 @@ function myFunction8() {
                   <h3>Envios ordenados por fecha limite</h3>
 
               <div id="t4">
-                   <table class="table">
-                      <thead class="thead-dark">
+                   <table class="table table-striped table-dark">
+
                           <tr>
                           <th>Codigo</th>
                           <th>Fecha pedido</th>
                           <th>Fecha limite</th>
                           </tr>
-                      </thead>
+
                       <tbody>
-                        {% for codigo, fecha1, fechalimite in envio1 %}
+                        {% for cod_envio, fecha_pedido, fecha_limite in envio1 %}
                             <tr>
-                                <td>{{ codigo }}</td>
-                                <td>{{ fecha1 }}</td>
-                                <td>{{ fechalimite }}</td>
+                                <td>{{ cod_envio }}</td>
+                                <td>{{ fecha_pedido }}</td>
+                                <td>{{ fecha_limite }}</td>
                             </tr>
                         {% endfor %}
                       </tbody>
@@ -647,18 +650,17 @@ function myFunction8() {
                   <h3>Envios que transportan productos 'Nike'</h3>
 
               <div id="t5">
-                   <table class="table">
-                      <thead class="thead-dark">
-                          <tr>
-                          <th>Codigo</th>
-                          <th>Fecha Pedido</th>
-                          </tr>
-                      </thead>
+                   <table class="table table-striped table-dark">
+                       <tr>
+                       <th>Codigo</th>
+                       <th>Fecha Pedido</th>
+                       </tr>
+
                       <tbody>
-                        {% for codigo, fechapedido in envio2 %}
+                        {% for cod_envio, fecha_pedido in envio2 %}
                             <tr>
-                                <td>{{ codigo }}</td>
-                                <td>{{ fechapedido }}</td>
+                                <td>{{ cod_envio }}</td>
+                                <td>{{ fecha_pedido }}</td>
                             </tr>
                         {% endfor %}
                       </tbody>
@@ -673,18 +675,18 @@ function myFunction8() {
                   <h3>Camiones ordenados por ultima fecha de mantencion</h3>
 
               <div id="t6">
-                   <table class="table">
-                      <thead class="thead-dark">
+                   <table class="table table-striped table-dark">
+
                           <tr>
                           <th>Patente</th>
                           <th>Fecha Ultima Mantencion</th>
                           </tr>
-                      </thead>
+
                       <tbody>
-                        {% for patente, fecha in camion2 %}
+                        {% for patente, fecha_ult_mantencion in camion2 %}
                             <tr>
                                 <td>{{ patente }}</td>
-                                <td>{{ fecha }}</td>
+                                <td>{{ fecha_ult_mantencion }}</td>
                             </tr>
                         {% endfor %}
                       </tbody>
@@ -723,18 +725,18 @@ function myFunction8() {
                   <h3>Cantidad maxima de carga, agrupada por Empresa de Camiones</h3>
 
               <div id="t7">
-                   <table class="table">
-                      <thead class="thead-dark">
+                   <table class="table table-striped table-dark">
+
                           <tr>
                           <th>Empresa</th>
                           <th>Cantidad Total de carga</th>
                           </tr>
-                      </thead>
+
                       <tbody>
-                        {% for empresa, total in camion3 %}
+                        {% for empresa, CapacidadTotal in camion3 %}
                             <tr>
                                 <td>{{ empresa }}</td>
-                                <td>{{ total }}</td>
+                                <td>{{ CapacidadTotal }}</td>
                             </tr>
                         {% endfor %}
                       </tbody>
@@ -749,18 +751,18 @@ function myFunction8() {
                   <h3>Envios agrupados y ordenados por cantidad de productos pedidos</h3>
 
               <div id="t8">
-                   <table class="table">
-                      <thead class="thead-dark">
+                   <table class="table table-striped table-dark">
+
                           <tr>
                           <th>Codigo</th>
                           <th>Total de productos solicitados</th>
                           </tr>
-                      </thead>
+
                       <tbody>
-                        {% for codigo, total in envio4 %}
+                        {% for cod_envio, TotalCantidad in envio4 %}
                             <tr>
-                                <td>{{ codigo }}</td>
-                                <td>{{ total }}</td>
+                                <td>{{ cod_envio }}</td>
+                                <td>{{ TotalCantidad }}</td>
                             </tr>
                         {% endfor %}
                       </tbody>

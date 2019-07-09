@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="936de7b5-fdba-4651-888d-f9b38e4ab092" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Consultas.txt" afterPath="$PROJECT_DIR$/Consultas.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.py" afterPath="$PROJECT_DIR$/web.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +17,7 @@
     <SUITE FILE_PATH="coverage/proyecto_bases$setup.coverage" NAME="setup Coverage Results" MODIFIED="1562460164751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proyecto_bases$borrarTablas.coverage" NAME="borrarTablas Coverage Results" MODIFIED="1562459887344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proyecto_bases$seed.coverage" NAME="seed Coverage Results" MODIFIED="1562460173559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/proyecto_bases$web.coverage" NAME="web Coverage Results" MODIFIED="1562460181842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/proyecto_bases$web.coverage" NAME="web Coverage Results" MODIFIED="1562631176196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -34,8 +35,8 @@
       <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="76" />
+            <state relative-caret-position="646">
+              <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
                 <marker date="1562460163344" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
@@ -63,33 +64,89 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Consultas.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Consultas.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Consultas.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="43" selection-end-column="24" />
+            <state relative-caret-position="-17">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+            <state relative-caret-position="311">
+              <caret line="753" column="64" lean-forward="false" selection-start-line="753" selection-start-column="64" selection-end-line="753" selection-end-column="64" />
               <folding>
+                <element signature="n#script#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#96#278#0" expanded="false" />
+                <element signature="e#187#229#0" expanded="false" />
+                <element signature="e#235#276#0" expanded="false" />
+                <element signature="e#303#485#0" expanded="false" />
+                <element signature="e#394#436#0" expanded="false" />
+                <element signature="e#442#483#0" expanded="false" />
+                <element signature="e#509#691#0" expanded="false" />
+                <element signature="e#600#642#0" expanded="false" />
+                <element signature="e#648#689#0" expanded="false" />
+                <element signature="e#715#897#0" expanded="false" />
+                <element signature="e#806#848#0" expanded="false" />
+                <element signature="e#854#895#0" expanded="false" />
+                <element signature="e#921#1103#0" expanded="false" />
+                <element signature="e#1012#1054#0" expanded="false" />
+                <element signature="e#1060#1101#0" expanded="false" />
+                <element signature="e#1127#1309#0" expanded="false" />
+                <element signature="e#1218#1260#0" expanded="false" />
+                <element signature="e#1266#1307#0" expanded="false" />
+                <element signature="e#1333#1515#0" expanded="false" />
+                <element signature="e#1424#1466#0" expanded="false" />
+                <element signature="e#1472#1513#0" expanded="false" />
+                <element signature="e#1539#1721#0" expanded="false" />
+                <element signature="e#1630#1672#0" expanded="false" />
+                <element signature="e#1678#1719#0" expanded="false" />
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#3319#4380#0" expanded="false" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#5315#9143#0" expanded="false" />
                 <element signature="e#9144#11379#0" expanded="false" />
                 <element signature="e#11386#18304#0" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#28540#31916#0" expanded="false" />
-                <marker date="1562449139199" expanded="false" signature="14863:14944" ph="..." />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#28327#31703#0" expanded="false" />
+                <marker date="1562634971476" expanded="false" signature="14863:14944" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+                <marker date="1562634433078" expanded="true" signature="369:466" ph="select chofe... chofer" />
+                <marker date="1562634433078" expanded="true" signature="549:710" ph="select chofe... chofer" />
+                <marker date="1562634433078" expanded="true" signature="791:934" ph="select camio... camion" />
+                <marker date="1562634433078" expanded="true" signature="893:933" ph="select max(c... camion" />
+                <marker date="1562634433078" expanded="true" signature="1009:1066" ph="select * fro... envios" />
+                <marker date="1562634433078" expanded="true" signature="1141:1370" ph="select envio... envios" />
+                <marker date="1562634433078" expanded="true" signature="1445:1552" ph="select camio... camion" />
+                <marker date="1562634433078" expanded="true" signature="1627:1733" ph="select camio... camion" />
+                <marker date="1562634433078" expanded="true" signature="1809:1949" ph="select detal... detalle_envios" />
               </folding>
             </state>
           </provider>
@@ -98,8 +155,8 @@
       <file leaf-file-name="borrarTablas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/borrarTablas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="365">
+              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
                 <marker date="1561349859067" expanded="true" signature="179:243" ph="select 'drop... pg_tables" />
@@ -130,7 +187,7 @@
       <file leaf-file-name="seed.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
+            <state relative-caret-position="884">
               <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -207,27 +264,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="42" column="72" lean-forward="false" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <marker date="1562048547065" expanded="true" signature="369:466" ph="select chofe... chofer" />
-                <marker date="1562048547065" expanded="true" signature="554:715" ph="select chofe... chofer" />
-                <marker date="1562048547065" expanded="true" signature="802:945" ph="select camio... camion" />
-                <marker date="1562048547065" expanded="true" signature="904:944" ph="select max(c... camion" />
-                <marker date="1562048547065" expanded="true" signature="1028:1085" ph="select * fro... envios" />
-                <marker date="1562048547065" expanded="true" signature="1164:1393" ph="select envio... envios" />
-                <marker date="1562048547065" expanded="true" signature="1471:1578" ph="select camio... camion" />
-                <marker date="1562048547065" expanded="true" signature="1657:1763" ph="select camio... camion" />
-                <marker date="1562048547065" expanded="true" signature="1843:1983" ph="select detal... detalle_envios" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="datosMaster.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datosMaster.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -251,6 +287,7 @@
     <findStrings>
       <find>ocean fr</find>
       <find>our blog</find>
+      <find>chofer1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -263,10 +300,10 @@
         <option value="$PROJECT_DIR$/datosMaster.py" />
         <option value="$PROJECT_DIR$/borrarTablas.py" />
         <option value="$PROJECT_DIR$/seed.py" />
-        <option value="$PROJECT_DIR$/web.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/Consultas.txt" />
+        <option value="$PROJECT_DIR$/web.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -298,6 +335,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,12 +344,15 @@
               <item name="proyecto_bases" type="b2602c69:ProjectViewProjectNode" />
               <item name="proyecto_bases" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="proyecto_bases" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyecto_bases" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,19 +476,29 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27345416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2153518" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27665246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2153518" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -455,7 +507,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -467,7 +518,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -594,15 +645,15 @@
           <caret line="42" column="72" lean-forward="true" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1562048547065" expanded="true" signature="369:466" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="554:715" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="802:945" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="904:944" ph="select max(c... camion" />
-            <marker date="1562048547065" expanded="true" signature="1028:1085" ph="select * fro... envios" />
-            <marker date="1562048547065" expanded="true" signature="1164:1393" ph="select envio... envios" />
-            <marker date="1562048547065" expanded="true" signature="1471:1578" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1657:1763" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1843:1983" ph="select detal... detalle_envios" />
+            <marker date="1562634433078" expanded="true" signature="369:466" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="549:710" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="791:934" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="893:933" ph="select max(c... camion" />
+            <marker date="1562634433078" expanded="true" signature="1009:1066" ph="select * fro... envios" />
+            <marker date="1562634433078" expanded="true" signature="1141:1370" ph="select envio... envios" />
+            <marker date="1562634433078" expanded="true" signature="1445:1552" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1627:1733" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1809:1949" ph="select detal... detalle_envios" />
           </folding>
         </state>
       </provider>
@@ -658,17 +709,52 @@
         <state relative-caret-position="1173">
           <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
           <folding>
+            <element signature="n#script#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#96#278#0" expanded="false" />
+            <element signature="e#187#229#0" expanded="false" />
+            <element signature="e#235#276#0" expanded="false" />
+            <element signature="e#303#485#0" expanded="false" />
+            <element signature="e#394#436#0" expanded="false" />
+            <element signature="e#442#483#0" expanded="false" />
+            <element signature="e#509#691#0" expanded="false" />
+            <element signature="e#600#642#0" expanded="false" />
+            <element signature="e#648#689#0" expanded="false" />
+            <element signature="e#715#897#0" expanded="false" />
+            <element signature="e#806#848#0" expanded="false" />
+            <element signature="e#854#895#0" expanded="false" />
+            <element signature="e#921#1103#0" expanded="false" />
+            <element signature="e#1012#1054#0" expanded="false" />
+            <element signature="e#1060#1101#0" expanded="false" />
+            <element signature="e#1127#1309#0" expanded="false" />
+            <element signature="e#1218#1260#0" expanded="false" />
+            <element signature="e#1266#1307#0" expanded="false" />
+            <element signature="e#1333#1515#0" expanded="false" />
+            <element signature="e#1424#1466#0" expanded="false" />
+            <element signature="e#1472#1513#0" expanded="false" />
+            <element signature="e#1539#1721#0" expanded="false" />
+            <element signature="e#1630#1672#0" expanded="false" />
+            <element signature="e#1678#1719#0" expanded="false" />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#3319#4380#0" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#5315#9143#0" expanded="false" />
             <element signature="e#9144#11379#0" expanded="false" />
             <element signature="e#11386#18304#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#28540#31916#0" expanded="false" />
-            <marker date="1562449139199" expanded="false" signature="14863:14944" ph="..." />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#28327#31703#0" expanded="false" />
+            <marker date="1562634971476" expanded="false" signature="14863:14944" ph="..." />
           </folding>
         </state>
       </provider>
@@ -795,15 +881,15 @@
           <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1562048547065" expanded="true" signature="369:466" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="554:715" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="802:945" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="904:944" ph="select max(c... camion" />
-            <marker date="1562048547065" expanded="true" signature="1028:1085" ph="select * fro... envios" />
-            <marker date="1562048547065" expanded="true" signature="1164:1393" ph="select envio... envios" />
-            <marker date="1562048547065" expanded="true" signature="1471:1578" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1657:1763" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1843:1983" ph="select detal... detalle_envios" />
+            <marker date="1562634433078" expanded="true" signature="369:466" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="549:710" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="791:934" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="893:933" ph="select max(c... camion" />
+            <marker date="1562634433078" expanded="true" signature="1009:1066" ph="select * fro... envios" />
+            <marker date="1562634433078" expanded="true" signature="1141:1370" ph="select envio... envios" />
+            <marker date="1562634433078" expanded="true" signature="1445:1552" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1627:1733" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1809:1949" ph="select detal... detalle_envios" />
           </folding>
         </state>
       </provider>
@@ -851,17 +937,52 @@
         <state relative-caret-position="1173">
           <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
           <folding>
+            <element signature="n#script#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#96#278#0" expanded="false" />
+            <element signature="e#187#229#0" expanded="false" />
+            <element signature="e#235#276#0" expanded="false" />
+            <element signature="e#303#485#0" expanded="false" />
+            <element signature="e#394#436#0" expanded="false" />
+            <element signature="e#442#483#0" expanded="false" />
+            <element signature="e#509#691#0" expanded="false" />
+            <element signature="e#600#642#0" expanded="false" />
+            <element signature="e#648#689#0" expanded="false" />
+            <element signature="e#715#897#0" expanded="false" />
+            <element signature="e#806#848#0" expanded="false" />
+            <element signature="e#854#895#0" expanded="false" />
+            <element signature="e#921#1103#0" expanded="false" />
+            <element signature="e#1012#1054#0" expanded="false" />
+            <element signature="e#1060#1101#0" expanded="false" />
+            <element signature="e#1127#1309#0" expanded="false" />
+            <element signature="e#1218#1260#0" expanded="false" />
+            <element signature="e#1266#1307#0" expanded="false" />
+            <element signature="e#1333#1515#0" expanded="false" />
+            <element signature="e#1424#1466#0" expanded="false" />
+            <element signature="e#1472#1513#0" expanded="false" />
+            <element signature="e#1539#1721#0" expanded="false" />
+            <element signature="e#1630#1672#0" expanded="false" />
+            <element signature="e#1678#1719#0" expanded="false" />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#3319#4380#0" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#5315#9143#0" expanded="false" />
             <element signature="e#9144#11379#0" expanded="false" />
             <element signature="e#11386#18304#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#28540#31916#0" expanded="false" />
-            <marker date="1562449139199" expanded="false" signature="14863:14944" ph="..." />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#28327#31703#0" expanded="false" />
+            <marker date="1562634971476" expanded="false" signature="14863:14944" ph="..." />
           </folding>
         </state>
       </provider>
@@ -988,15 +1109,15 @@
           <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1562048547065" expanded="true" signature="369:466" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="554:715" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="802:945" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="904:944" ph="select max(c... camion" />
-            <marker date="1562048547065" expanded="true" signature="1028:1085" ph="select * fro... envios" />
-            <marker date="1562048547065" expanded="true" signature="1164:1393" ph="select envio... envios" />
-            <marker date="1562048547065" expanded="true" signature="1471:1578" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1657:1763" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1843:1983" ph="select detal... detalle_envios" />
+            <marker date="1562634433078" expanded="true" signature="369:466" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="549:710" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="791:934" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="893:933" ph="select max(c... camion" />
+            <marker date="1562634433078" expanded="true" signature="1009:1066" ph="select * fro... envios" />
+            <marker date="1562634433078" expanded="true" signature="1141:1370" ph="select envio... envios" />
+            <marker date="1562634433078" expanded="true" signature="1445:1552" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1627:1733" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1809:1949" ph="select detal... detalle_envios" />
           </folding>
         </state>
       </provider>
@@ -1153,15 +1274,15 @@
           <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1562048547065" expanded="true" signature="369:466" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="554:715" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="802:945" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="904:944" ph="select max(c... camion" />
-            <marker date="1562048547065" expanded="true" signature="1028:1085" ph="select * fro... envios" />
-            <marker date="1562048547065" expanded="true" signature="1164:1393" ph="select envio... envios" />
-            <marker date="1562048547065" expanded="true" signature="1471:1578" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1657:1763" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1843:1983" ph="select detal... detalle_envios" />
+            <marker date="1562634433078" expanded="true" signature="369:466" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="549:710" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="791:934" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="893:933" ph="select max(c... camion" />
+            <marker date="1562634433078" expanded="true" signature="1009:1066" ph="select * fro... envios" />
+            <marker date="1562634433078" expanded="true" signature="1141:1370" ph="select envio... envios" />
+            <marker date="1562634433078" expanded="true" signature="1445:1552" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1627:1733" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1809:1949" ph="select detal... detalle_envios" />
           </folding>
         </state>
       </provider>
@@ -1179,17 +1300,52 @@
         <state relative-caret-position="1156">
           <caret line="68" column="2" lean-forward="false" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
           <folding>
+            <element signature="n#script#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#96#278#0" expanded="false" />
+            <element signature="e#187#229#0" expanded="false" />
+            <element signature="e#235#276#0" expanded="false" />
+            <element signature="e#303#485#0" expanded="false" />
+            <element signature="e#394#436#0" expanded="false" />
+            <element signature="e#442#483#0" expanded="false" />
+            <element signature="e#509#691#0" expanded="false" />
+            <element signature="e#600#642#0" expanded="false" />
+            <element signature="e#648#689#0" expanded="false" />
+            <element signature="e#715#897#0" expanded="false" />
+            <element signature="e#806#848#0" expanded="false" />
+            <element signature="e#854#895#0" expanded="false" />
+            <element signature="e#921#1103#0" expanded="false" />
+            <element signature="e#1012#1054#0" expanded="false" />
+            <element signature="e#1060#1101#0" expanded="false" />
+            <element signature="e#1127#1309#0" expanded="false" />
+            <element signature="e#1218#1260#0" expanded="false" />
+            <element signature="e#1266#1307#0" expanded="false" />
+            <element signature="e#1333#1515#0" expanded="false" />
+            <element signature="e#1424#1466#0" expanded="false" />
+            <element signature="e#1472#1513#0" expanded="false" />
+            <element signature="e#1539#1721#0" expanded="false" />
+            <element signature="e#1630#1672#0" expanded="false" />
+            <element signature="e#1678#1719#0" expanded="false" />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#3319#4380#0" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#5315#9143#0" expanded="false" />
             <element signature="e#9144#11379#0" expanded="false" />
             <element signature="e#11386#18304#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#28540#31916#0" expanded="false" />
-            <marker date="1562449139199" expanded="false" signature="14863:14944" ph="..." />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#28327#31703#0" expanded="false" />
+            <marker date="1562634971476" expanded="false" signature="14863:14944" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1346,15 +1502,15 @@
           <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1562048547065" expanded="true" signature="369:466" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="554:715" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="802:945" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="904:944" ph="select max(c... camion" />
-            <marker date="1562048547065" expanded="true" signature="1028:1085" ph="select * fro... envios" />
-            <marker date="1562048547065" expanded="true" signature="1164:1393" ph="select envio... envios" />
-            <marker date="1562048547065" expanded="true" signature="1471:1578" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1657:1763" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1843:1983" ph="select detal... detalle_envios" />
+            <marker date="1562634433078" expanded="true" signature="369:466" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="549:710" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="791:934" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="893:933" ph="select max(c... camion" />
+            <marker date="1562634433078" expanded="true" signature="1009:1066" ph="select * fro... envios" />
+            <marker date="1562634433078" expanded="true" signature="1141:1370" ph="select envio... envios" />
+            <marker date="1562634433078" expanded="true" signature="1445:1552" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1627:1733" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1809:1949" ph="select detal... detalle_envios" />
           </folding>
         </state>
       </provider>
@@ -1372,17 +1528,52 @@
         <state relative-caret-position="12954">
           <caret line="762" column="44" lean-forward="false" selection-start-line="762" selection-start-column="44" selection-end-line="762" selection-end-column="44" />
           <folding>
+            <element signature="n#script#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#96#278#0" expanded="false" />
+            <element signature="e#187#229#0" expanded="false" />
+            <element signature="e#235#276#0" expanded="false" />
+            <element signature="e#303#485#0" expanded="false" />
+            <element signature="e#394#436#0" expanded="false" />
+            <element signature="e#442#483#0" expanded="false" />
+            <element signature="e#509#691#0" expanded="false" />
+            <element signature="e#600#642#0" expanded="false" />
+            <element signature="e#648#689#0" expanded="false" />
+            <element signature="e#715#897#0" expanded="false" />
+            <element signature="e#806#848#0" expanded="false" />
+            <element signature="e#854#895#0" expanded="false" />
+            <element signature="e#921#1103#0" expanded="false" />
+            <element signature="e#1012#1054#0" expanded="false" />
+            <element signature="e#1060#1101#0" expanded="false" />
+            <element signature="e#1127#1309#0" expanded="false" />
+            <element signature="e#1218#1260#0" expanded="false" />
+            <element signature="e#1266#1307#0" expanded="false" />
+            <element signature="e#1333#1515#0" expanded="false" />
+            <element signature="e#1424#1466#0" expanded="false" />
+            <element signature="e#1472#1513#0" expanded="false" />
+            <element signature="e#1539#1721#0" expanded="false" />
+            <element signature="e#1630#1672#0" expanded="false" />
+            <element signature="e#1678#1719#0" expanded="false" />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#3319#4380#0" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#5315#9143#0" expanded="false" />
             <element signature="e#9144#11379#0" expanded="false" />
             <element signature="e#11386#18304#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#28540#31916#0" expanded="false" />
-            <marker date="1562449139199" expanded="false" signature="14863:14944" ph="..." />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#28327#31703#0" expanded="false" />
+            <marker date="1562634971476" expanded="false" signature="14863:14944" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1531,15 +1722,15 @@
           <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1562048547065" expanded="true" signature="369:466" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="554:715" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="802:945" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="904:944" ph="select max(c... camion" />
-            <marker date="1562048547065" expanded="true" signature="1028:1085" ph="select * fro... envios" />
-            <marker date="1562048547065" expanded="true" signature="1164:1393" ph="select envio... envios" />
-            <marker date="1562048547065" expanded="true" signature="1471:1578" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1657:1763" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1843:1983" ph="select detal... detalle_envios" />
+            <marker date="1562634433078" expanded="true" signature="369:466" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="549:710" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="791:934" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="893:933" ph="select max(c... camion" />
+            <marker date="1562634433078" expanded="true" signature="1009:1066" ph="select * fro... envios" />
+            <marker date="1562634433078" expanded="true" signature="1141:1370" ph="select envio... envios" />
+            <marker date="1562634433078" expanded="true" signature="1445:1552" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1627:1733" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1809:1949" ph="select detal... detalle_envios" />
           </folding>
         </state>
       </provider>
@@ -1666,30 +1857,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/Consultas.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        <state relative-caret-position="-17">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
           <folding>
-            <element signature="e#3319#4380#0" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5315#9143#0" expanded="false" />
-            <element signature="e#9144#11379#0" expanded="false" />
-            <element signature="e#11386#18304#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#28540#31916#0" expanded="false" />
-            <marker date="1562449139199" expanded="false" signature="14863:14944" ph="..." />
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1562460163344" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
+            <marker date="1562460163344" expanded="true" signature="269:1962" ph="/* CREATE TA... " />
+            <marker date="1562460163344" expanded="true" signature="270:433" ph="CREATE TABLE... chofer" />
+            <marker date="1562460163344" expanded="true" signature="446:583" ph="CREATE TABLE... camion" />
+            <marker date="1562460163344" expanded="true" signature="586:690" ph="CREATE TABLE... DESTINO" />
+            <marker date="1562460163344" expanded="true" signature="693:797" ph="CREATE TABLE... bodegas" />
+            <marker date="1562460163344" expanded="true" signature="800:907" ph="CREATE TABLE... productos" />
+            <marker date="1562460163344" expanded="true" signature="910:1012" ph="CREATE TABLE... envios" />
+            <marker date="1562460163344" expanded="true" signature="1023:1259" ph="CREATE TABLE... detalle_envios" />
+            <marker date="1562460163344" expanded="true" signature="1286:1334" ph="/*TABLA RELA... " />
+            <marker date="1562460163344" expanded="true" signature="1335:1506" ph="CREATE TABLE... envio_camion" />
+            <marker date="1562460163344" expanded="true" signature="1515:1562" ph="/*TABLA RELA... " />
+            <marker date="1562460163344" expanded="true" signature="1563:1723" ph="CREATE TABLE... envio_chofer" />
+            <marker date="1562460163344" expanded="true" signature="1726:1774" ph="/*TABLA RELA... " />
+            <marker date="1562460163344" expanded="true" signature="1775:1953" ph="CREATE TABLE... envio_destino" />
+            <marker date="1562460163344" expanded="true" signature="1964:2120" ph="CREATE TABLE... despedidos" />
+            <marker date="1562460163344" expanded="true" signature="2129:2175" ph="/*TABLA RELA... " />
+            <marker date="1562460163344" expanded="true" signature="2182:2345" ph="CREATE TABLE... chofer_camion" />
+            <marker date="1562460163344" expanded="true" signature="2348:2398" ph="/*TABLA RELA... " />
+            <marker date="1562460163344" expanded="true" signature="2399:2582" ph="CREATE TABLE... destino_bodega" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/borrarTablas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="365">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
             <marker date="1561349859067" expanded="true" signature="179:243" ph="select 'drop... pg_tables" />
@@ -1718,7 +1927,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
+        <state relative-caret-position="884">
           <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
@@ -1796,58 +2005,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="42" column="72" lean-forward="false" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+        <state relative-caret-position="433">
+          <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1562048547065" expanded="true" signature="369:466" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="554:715" ph="select chofe... chofer" />
-            <marker date="1562048547065" expanded="true" signature="802:945" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="904:944" ph="select max(c... camion" />
-            <marker date="1562048547065" expanded="true" signature="1028:1085" ph="select * fro... envios" />
-            <marker date="1562048547065" expanded="true" signature="1164:1393" ph="select envio... envios" />
-            <marker date="1562048547065" expanded="true" signature="1471:1578" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1657:1763" ph="select camio... camion" />
-            <marker date="1562048547065" expanded="true" signature="1843:1983" ph="select detal... detalle_envios" />
+            <marker date="1562634433078" expanded="true" signature="369:466" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="549:710" ph="select chofe... chofer" />
+            <marker date="1562634433078" expanded="true" signature="791:934" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="893:933" ph="select max(c... camion" />
+            <marker date="1562634433078" expanded="true" signature="1009:1066" ph="select * fro... envios" />
+            <marker date="1562634433078" expanded="true" signature="1141:1370" ph="select envio... envios" />
+            <marker date="1562634433078" expanded="true" signature="1445:1552" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1627:1733" ph="select camio... camion" />
+            <marker date="1562634433078" expanded="true" signature="1809:1949" ph="select detal... detalle_envios" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="76" />
+        <state relative-caret-position="311">
+          <caret line="753" column="64" lean-forward="false" selection-start-line="753" selection-start-column="64" selection-end-line="753" selection-end-column="64" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <marker date="1562460163344" expanded="true" signature="171:235" ph="select 'drop... pg_tables" />
-            <marker date="1562460163344" expanded="true" signature="269:1962" ph="/* CREATE TA... " />
-            <marker date="1562460163344" expanded="true" signature="270:433" ph="CREATE TABLE... chofer" />
-            <marker date="1562460163344" expanded="true" signature="446:583" ph="CREATE TABLE... camion" />
-            <marker date="1562460163344" expanded="true" signature="586:690" ph="CREATE TABLE... DESTINO" />
-            <marker date="1562460163344" expanded="true" signature="693:797" ph="CREATE TABLE... bodegas" />
-            <marker date="1562460163344" expanded="true" signature="800:907" ph="CREATE TABLE... productos" />
-            <marker date="1562460163344" expanded="true" signature="910:1012" ph="CREATE TABLE... envios" />
-            <marker date="1562460163344" expanded="true" signature="1023:1259" ph="CREATE TABLE... detalle_envios" />
-            <marker date="1562460163344" expanded="true" signature="1286:1334" ph="/*TABLA RELA... " />
-            <marker date="1562460163344" expanded="true" signature="1335:1506" ph="CREATE TABLE... envio_camion" />
-            <marker date="1562460163344" expanded="true" signature="1515:1562" ph="/*TABLA RELA... " />
-            <marker date="1562460163344" expanded="true" signature="1563:1723" ph="CREATE TABLE... envio_chofer" />
-            <marker date="1562460163344" expanded="true" signature="1726:1774" ph="/*TABLA RELA... " />
-            <marker date="1562460163344" expanded="true" signature="1775:1953" ph="CREATE TABLE... envio_destino" />
-            <marker date="1562460163344" expanded="true" signature="1964:2120" ph="CREATE TABLE... despedidos" />
-            <marker date="1562460163344" expanded="true" signature="2129:2175" ph="/*TABLA RELA... " />
-            <marker date="1562460163344" expanded="true" signature="2182:2345" ph="CREATE TABLE... chofer_camion" />
-            <marker date="1562460163344" expanded="true" signature="2348:2398" ph="/*TABLA RELA... " />
-            <marker date="1562460163344" expanded="true" signature="2399:2582" ph="CREATE TABLE... destino_bodega" />
+            <element signature="n#script#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#96#278#0" expanded="false" />
+            <element signature="e#187#229#0" expanded="false" />
+            <element signature="e#235#276#0" expanded="false" />
+            <element signature="e#303#485#0" expanded="false" />
+            <element signature="e#394#436#0" expanded="false" />
+            <element signature="e#442#483#0" expanded="false" />
+            <element signature="e#509#691#0" expanded="false" />
+            <element signature="e#600#642#0" expanded="false" />
+            <element signature="e#648#689#0" expanded="false" />
+            <element signature="e#715#897#0" expanded="false" />
+            <element signature="e#806#848#0" expanded="false" />
+            <element signature="e#854#895#0" expanded="false" />
+            <element signature="e#921#1103#0" expanded="false" />
+            <element signature="e#1012#1054#0" expanded="false" />
+            <element signature="e#1060#1101#0" expanded="false" />
+            <element signature="e#1127#1309#0" expanded="false" />
+            <element signature="e#1218#1260#0" expanded="false" />
+            <element signature="e#1266#1307#0" expanded="false" />
+            <element signature="e#1333#1515#0" expanded="false" />
+            <element signature="e#1424#1466#0" expanded="false" />
+            <element signature="e#1472#1513#0" expanded="false" />
+            <element signature="e#1539#1721#0" expanded="false" />
+            <element signature="e#1630#1672#0" expanded="false" />
+            <element signature="e#1678#1719#0" expanded="false" />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#3319#4380#0" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#5315#9143#0" expanded="false" />
+            <element signature="e#9144#11379#0" expanded="false" />
+            <element signature="e#11386#18304#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#28327#31703#0" expanded="false" />
+            <marker date="1562634971476" expanded="false" signature="14863:14944" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Consultas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="43" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
