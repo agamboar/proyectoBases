@@ -90,7 +90,16 @@ def index():
     """
     cur.execute(sql)
     envio4=cur.fetchall()
+
     return render_template("index.html", chofer1=chofer1, chofer2=chofer2, camion1=camion1, envio1=envio1, envio2=envio2, camion2=camion2, camion3=camion3, envio4=envio4)
+
+@app.route('/tables')
+
+def tables():
+
+    return render_template("blog.html")
+
+
 
 
 if __name__=="__main__":
