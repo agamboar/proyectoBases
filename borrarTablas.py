@@ -11,7 +11,7 @@ cur.execute(sql)
 
 
 sql= '''
-
+DROP TABLE usuario;
 DROP TABLE despedidos;
 /*DROP TABLE chofer_despidos;*/
 DROP TABLE chofer;
