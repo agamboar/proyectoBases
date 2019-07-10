@@ -11,23 +11,23 @@ cur.execute(sql)
 
 
 sql= '''
-DROP TABLE usuario;
-DROP TABLE despedidos;
+DROP TABLE usuario CASCADE ;
+DROP TABLE despedidos CASCADE ;
 /*DROP TABLE chofer_despidos;*/
-DROP TABLE chofer;
-DROP TABLE chofer_camion;
-DROP TABLE camion;
-DROP TABLE destino;
-DROP TABLE destino_bodega;
-DROP TABLE bodegas;
-DROP TABLE productos;
+DROP TABLE chofer CASCADE;
+DROP TABLE chofer_camion CASCADE ;
+DROP TABLE camion CASCADE ;
+DROP TABLE destino CASCADE ;
+DROP TABLE destino_bodega CASCADE ;
+DROP TABLE bodegas CASCADE ;
+DROP TABLE productos CASCADE ;
 /*DROP TABLE producto_detalle;*/
-DROP TABLE detalle_envios;
-DROP TABLE envios;
-DROP TABLE envio_camion;
+DROP TABLE detalle_envios CASCADE ;
+DROP TABLE envios CASCADE ;
+DROP TABLE envio_camion CASCADE ;
 /*DROP TABLE envio_detalle;*/
-DROP TABLE envio_chofer;
-DROP TABLE envio_destino;
+DROP TABLE envio_chofer CASCADE ;
+DROP TABLE envio_destino CASCADE ;
 
 '''
 

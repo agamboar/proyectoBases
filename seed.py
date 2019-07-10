@@ -6,6 +6,8 @@ conexion = psq.connect("dbname=%s user=%s host=%s password=%s"%(database,user,ho
 cur = conexion.cursor()
 
 sql = '''
+    INSERT INTO usuario(id, usuario, contraseña, mail)
+              VALUES('131', 'josematurana12', '11223344', 'josematurana@gmail.com');   
     INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, sueldo, despedido)
               VALUES('12025231-8', 'Esteban', 'Gomez', 'Torres', 620000, FALSE);
     INSERT INTO chofer(rut, nombre, apellidoP, apellidoM, sueldo, despedido)
