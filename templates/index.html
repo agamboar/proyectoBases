@@ -123,9 +123,11 @@ function myFunction8() {
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                 <li class="active"><a href="#">Inicio</a></li>
 
-
-                <li><a href="login">Modifique sus tablas</a></li>
-
+                 {% if status %}
+                <li><a href="tablas">Modifique sus tablas</a></li>
+                  {% else %}
+                  <li><a href="login">Login</a></li>
+                {% endif %}
               </ul>
             </nav>
           </div>

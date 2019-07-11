@@ -1,7 +1,7 @@
 import psycopg2 as psq
 from datosMaster import *
 
-conexion = psq.connect("dbname=%s user=%s host=%s password=%s"%(database,user,host,password))
+conn = psq.connect("dbname=%s user=%s host=%s password=%s"%(database,user,host,password))
 
 cur = conexion.cursor()
 

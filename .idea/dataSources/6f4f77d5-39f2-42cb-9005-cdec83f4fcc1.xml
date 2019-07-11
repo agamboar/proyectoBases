@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="bases@localhost [2]">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.4">
+    <root id="1"/>
+    <database id="2" parent="1" name="bases">
+      <ObjectId>24577</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>13012</ObjectId>
+    </database>
+    <schema id="4" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="5" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_temp_1">
+      <ObjectId>11804</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11805</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="information_schema">
+      <ObjectId>12716</ObjectId>
+    </schema>
+    <table id="10" parent="4" name="bodegas">
+      <ObjectId>41473</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="11" parent="4" name="camion">
+      <ObjectId>41463</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="12" parent="4" name="chofer">
+      <ObjectId>41458</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="13" parent="4" name="chofer_camion">
+      <ObjectId>41552</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="14" parent="4" name="despedidos">
+      <ObjectId>41542</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="15" parent="4" name="destino">
+      <ObjectId>41468</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="16" parent="4" name="destino_bodega">
+      <ObjectId>41565</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="17" parent="4" name="detalle_envios">
+      <ObjectId>41488</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="18" parent="4" name="envio_camion">
+      <ObjectId>41503</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="19" parent="4" name="envio_chofer">
+      <ObjectId>41516</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="20" parent="4" name="envio_destino">
+      <ObjectId>41529</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="21" parent="4" name="envios">
+      <ObjectId>41483</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="22" parent="4" name="productos">
+      <ObjectId>41478</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+    <table id="23" parent="4" name="usuario">
+      <ObjectId>41453</ObjectId>
+      <StateNumber>632</StateNumber>
+    </table>
+  </database-model>
+</dataSource>

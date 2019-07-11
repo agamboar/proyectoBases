@@ -2,7 +2,6 @@ import psycopg2 as psq
 from datosMaster import *
 
 conn = psq.connect("dbname=%s user=%s host=%s password=%s"%(database,user,host,password))
-
 cur = conn.cursor()
 
 sql = """select 'drop table"' || tablename || '" cascade;' from pg_tables;"""
@@ -12,7 +11,7 @@ cur.execute(sql)
 sql = """
 
 CREATE TABLE usuario
-        (id INT PRIMARY KEY NOT NULL, usuario VARCHAR(20), contraseña VARCHAR(12), mail VARCHAR(30));
+        (id SERIAL PRIMARY KEY NOT NULL, usuario VARCHAR(20), contraseña VARCHAR(12), mail VARCHAR(30));
 
 CREATE TABLE chofer
         (rut VARCHAR(10) PRIMARY KEY NOT NULL, nombre VARCHAR(15), apellidoP VARCHAR(15), apellidoM VARCHAR(15), sueldo INT, despedido BOOLEAN);

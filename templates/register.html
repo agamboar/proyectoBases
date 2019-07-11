@@ -6,14 +6,14 @@
         <div class="loginbox">
         <img src="/static/images/icon.png" class="avatar">
             <h1>Registro</h1>
-            <form>
+            <form method="post" action="/register">
                 <p>Usuario</p>
-                <input type="text" name="" placeholder="Ingrese su usuario">
+                <input type="text" name="usuario" placeholder="Ingrese su usuario">
                 <p>Contraseña</p>
-                <input type="password" name="" placeholder="Ingrese su contraseña">
-                <input type="password" name="" placeholder="Confirme su contraseña">
+                <input type="password" name="pwd" placeholder="Ingrese su contraseña">
+                <input type="password" name="vpwd" placeholder="Confirme su contraseña">
                 <p>Correo</p>
-                <input type="text" name="" placeholder="Ingrese su correo">
+                <input type="text" name="mail" placeholder="Ingrese su correo">
                 <input type="submit" name="" value="Registrarse">
 
                 <a href="/">Volver a Inicio</a>
