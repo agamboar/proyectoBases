@@ -15,10 +15,10 @@ app = Flask(__name__)
 @app.route('/index')
 def index():
     sql = """
-    select chofer.rut, chofer.sueldo, chofer.despedido
-    from chofer
-    where chofer.sueldo>700000;
-    """
+        select chofer.rut, chofer.sueldo, chofer.despedido
+        from chofer
+        where chofer.sueldo>700000;
+        """
     cur.execute(sql)
     chofer1 = cur.fetchall()
 
@@ -223,9 +223,9 @@ def register():
     return render_template("register.html")
 
 
-@app.route('/self_tabla', methods=['POST'])
+@app.route('/add', methods=['POST'])
 
-def self_tabla():
+def add():
     pass
 
 
