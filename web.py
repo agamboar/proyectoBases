@@ -95,7 +95,90 @@ def index():
 
 @app.route('/tables')
 def tables():
-    return render_template("blog.html")
+
+    sql='''
+    select * from bodegas;
+    '''
+    cur.execute(sql)
+    bodegas = cur.fetchall()
+
+    sql = '''
+        select * from camion;
+        '''
+    cur.execute(sql)
+    camion = cur.fetchall()
+
+    sql = '''
+        select * from chofer;
+        '''
+    cur.execute(sql)
+    chofer = cur.fetchall()
+
+    sql = '''
+        select * from despedidos;
+        '''
+    cur.execute(sql)
+    despedidos = cur.fetchall()
+
+    sql = '''
+        select * from destino;
+        '''
+    cur.execute(sql)
+    destino = cur.fetchall()
+
+    sql = '''
+        select * from envios;
+        '''
+    cur.execute(sql)
+    envios = cur.fetchall()
+
+    sql = '''
+        select * from productos;
+        '''
+    cur.execute(sql)
+    productos = cur.fetchall()
+
+    sql = '''
+        select * from detalle_envios;
+        '''
+    cur.execute(sql)
+    detalle_envios = cur.fetchall()
+
+    sql = '''
+        select * from chofer_camion;
+        
+    '''
+    cur.execute(sql)
+    chofer_camion= cur.fetchall()
+
+    sql='''
+        select * from destino_bodega;
+    '''
+    cur.execute(sql)
+    destino_bodega=cur.fetchall()
+
+
+    sql='''
+        select * from envio_camion;
+    '''
+    cur.execute(sql)
+    envio_camion=cur.fetchall()
+
+    sql = '''
+            select * from envio_chofer;
+        '''
+    cur.execute(sql)
+    envio_chofer = cur.fetchall()
+
+    sql = '''
+            select * from envio_destino;
+        '''
+    cur.execute(sql)
+    envio_destino = cur.fetchall()
+    return render_template("blog.html",detalle_envios=detalle_envios , bodegas=bodegas, camion=camion, chofer=chofer,
+                           despedidos=despedidos, destino=destino,
+                           envios= envios, productos=productos, chofer_camion=chofer_camion, destino_bodega=destino_bodega, envio_camion=envio_camion,
+                           envio_chofer=envio_chofer, envio_destino=envio_destino)
 
 
 @app.route('/login', methods=['GET', 'POST'])
